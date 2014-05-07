@@ -1,0 +1,460 @@
+3c3,10
+< %      FEM code for Damage Consitutive Model (one element test)
+---
+> %       Damage Consitutive Model (one element test)
+> %
+> %=========================================================================
+> function [r_p,r_q,r_eps,r_epsel,r_epsed,r_epsE,r_epsid,r_Omega,r_f,r_sigmaT,r_Yd1,r_energy] = DSID_v5_MRC()
+> 
+> %=========================================================================
+> %
+> %      2. Damage Consitutive Model (one element test)
+6d12
+< function [r_p,r_q,r_eps,r_epsel,r_epsed,r_epsE,r_epsid,r_Omega,r_f,r_sigmaT,r_Yd1,r_energy] = DSID_v4_MRC()
+19c25
+< % sheaviside's model
+---
+> % sheaviside s model
+32,37c38
+< % a1 = 0;
+< % a2 = 3.58e-12;
+< % a3= -2e-11;%a3 = c*h/7;
+< % a4 = 0;
+< 
+< % Hayakawa's model
+---
+> % Hayakawa s model
+49c50
+< %alpha=0.0026;
+---
+> 
+52,53c53
+< % C0 = 273000; %Hayakawa's
+< % C1=6.3e5;
+---
+> %C0 = 273000; %Hayakawa s
+55a56,57
+> theta=0.5;
+> 
+68c70
+< Iter=50;
+---
+> Iter=150;
+76,80c78,87
+< % eta = [0 3];
+< % steps = 2; %steps
+< % chargEps1 = [0 0.02];      
+< % chargs    = [0 0]; % 
+< % ninc = [10 1000];
+---
+> eta = [0 4];
+> steps = 2;
+> chargEps1 = [0  0];
+> chargs = [0  -90e6 ;   % s11 vertical
+>           0  0  ;   % s22
+>           0  0  ;    % s33
+>           0  0  ;    % s12
+>           0 0 ;    % s23
+>           0 0 ];   % s13
+> ninc = [10 1000];
+94,103c101,110
+< eta = [0  4];
+< steps = 2;
+< chargEps1 = [0  0];
+< chargs = [0  100e6  ;   % s11 vertical
+<           0  10e6  ;   % s22
+<           0  10e6  ;    % s33
+<           0   45e6 ;    % s12
+<           0 0 ;    % s23
+<           0 0 ];   % s13
+< ninc = [10 1000 ];
+---
+> % eta = [0 4 ];
+> % steps = 2;
+> % chargEps1 = [0 0 ];
+> % chargs = [0 100e6  ;   % s11 vertical
+> %           0 0  ;   % s22
+> %           0 0  ;    % s33
+> %           0 0  ;    % s12
+> %           0 0 ;    % s23
+> %           0 0 ];   % s13
+> % ninc = [10 1000];
+224c231
+<         [ fd0,Yd1] = fdDP(sigmaT,zeros(3,3),Omega,Pars);
+---
+>         [ fd0,Ydm] = fdDP(sigmaT,zeros(3,3),Omega,Pars);
+230a238
+>             sigEner = sigmaT-theta*dsig;
+247,250c255,258
+<             energy(1,1)=Aij_Bij(sigmaT,deps);
+<             energy(1,2)=Aij_Bij(sigmaT,depsE);
+<             energy(1,3)=Aij_Bij(sigmaT,depsel);
+<             energy(1,4)=Aij_Bij(sigmaT,depsid);
+---
+>             energy(1,1)=Aij_Bij(sigEner,deps);
+>             energy(1,2)=Aij_Bij(sigEner,depsE);
+>             energy(1,3)=Aij_Bij(sigEner,depsel);
+>             energy(1,4)=Aij_Bij(sigEner,depsid);
+252c260
+<             dG_dtrdO = (a1+a3)*(trace(sigmaT))^2+(a2+a4)*trace(sigmaT*sigmaT);
+---
+>             dG_dtrdO = (a1+a3)*(trace(sigEner))^2+(a2+a4)*trace(sigEner*sigEner);
+321,327c329,335
+<                 incinc=1;
+<                 lambdam=0;lambdan=10^-3;
+<               while (abs(fd)>FTOL) && (incinc<Iter) %  for incinc=1:50%
+<                 [fdm,sigm,Omegam,depsidm] = fd_lam( lambdam, Omega, sigmaT, epsT, epsid, Pars,deps);
+<                 [fdn,sign,Omegan,depsidn] = fd_lam( lambdan, Omega, sigmaT, epsT, epsid, Pars,deps);
+<                 lambda = lambdan - fdn*(lambdan-lambdam)/(fdn-fdm);
+<                 [fd,sig,OmegaT,depsidT] = fd_lam( lambda, Omega, sigmaT, epsT, epsid, Pars,deps);
+---
+>              
+>              
+>              
+> 	      
+>               [fd,sig,OmegaT,depsidT] = lam_single( Omega, sigmaT, epsT, epsid, Pars,deps) ;
+>              
+>               
+332,337c340,345
+<                 incinc=incinc+1;
+<                 lambdam=lambdan;
+<                 lambdan=lambda;
+<               end
+<               %pause
+<               dY_dsig = dY_dsigf(sigmaT+dsig);
+---
+>               
+>               
+>               
+>               
+>               
+>               
+340c348
+<               Omega = Omega + dOmega;
+---
+>               Omega = OmegaT;
+350a359
+>             sigEner = sigmaT-theta*dsig;
+353,356c362,365
+<             energy(1,1) = Aij_Bij(sigmaT,deps);
+<             energy(1,2) = Aij_Bij(sigmaT,depsE);
+<             energy(1,3) = Aij_Bij(sigmaT,depsel);
+<             energy(1,4) = Aij_Bij(sigmaT,depsid);
+---
+>             energy(1,1) = Aij_Bij(sigEner,deps);
+>             energy(1,2) = Aij_Bij(sigEner,depsE);
+>             energy(1,3) = Aij_Bij(sigEner,depsel);
+>             energy(1,4) = Aij_Bij(sigEner,depsid);
+358c367
+<             dG_dtrdO = (a1+a3)*(trace(sigmaT))^2+(a2+a4)*trace(sigmaT*sigmaT);
+---
+>             dG_dtrdO = (a1+a3)*(trace(sigEner))^2+(a2+a4)*trace(sigEner*sigEner);
+439c448
+< legend('\Omega_{11}', '\Omega_{33}','Location','Best')
+---
+> legend('D_{11}', 'D_{33}','Location','Best')
+453c462
+< legend('\Omega_{11}', '\Omega_{33}','Location','Best')
+---
+> legend('D_{11}', 'D_{33}','Location','Best')
+523,525c532
+< 
+< 
+< figure1 = figure('NumberTitle','off','Name','Energy');
+---
+> figure1 = figure('NumberTitle','off','Name','Energy1');
+527c534
+< axes1 = axes('Parent',figure1,'FontSize',12);
+---
+> axes1 = axes('Parent',figure1,'FontSize',18);
+550,551c557,590
+< set(legend1,'Location','Best','FontSize',12);
+< print -depsc 'energy.eps'
+---
+> set(legend1,'Location','Best','FontSize',15);
+> print -depsc 'energy1.eps'
+> 
+> 
+> figure1 = figure('NumberTitle','off','Name','EnergyPercentage');
+> % Create axes
+> axes1 = axes('Parent',figure1,'FontSize',18);
+> xlim(axes1,[0 1100]);
+> ylim(axes1,[0 100]);
+> box(axes1,'on');
+> grid(axes1,'on');
+> hold(axes1,'all');
+> % Create multiple lines using matrix input to plot
+> end_r = length(r_energy);
+> plot1 = plot(100.*r_energy(2:end_r,1)./r_energy(2:end_r,1),'Parent',axes1,'LineWidth',3);
+> plot2 = plot(100.*r_energy(2:end_r,7)./r_energy(2:end_r,1),'Parent',axes1,'Linewidth',3);
+> plot3 = plot(100.*r_energy(2:end_r,4)./r_energy(2:end_r,1),'Parent',axes1,'Linewidth',3);
+> plot4 = plot(100.*r_energy(2:end_r,5)./r_energy(2:end_r,1),'Parent',axes1,'Linewidth',3);
+> 
+> set(plot1,'Color',[0 0 1],'DisplayName','External work');
+> set(plot2,'LineStyle','--','Color',[1 0 0],...
+>     'DisplayName','Elastic strain energy');
+> set(plot3,'LineStyle',':','Color',[0 1 0],...
+>     'DisplayName','Irreveasible strain energy');
+> set(plot4,'LineStyle','-.','Color',[0 1 1],...
+>     'DisplayName','Crack debonding');
+> % Create xlabel
+> xlabel('Substeps','FontSize',20);
+> % Create ylabel
+> ylabel('E_i/E_{Total}, %','FontSize',20);
+> % Create legend
+> legend1 = legend(axes1,'show');
+> set(legend1,'Location','Best','FontSize',15);
+> print -depsc 'energypercentage.eps'
+619,649d657
+< function [ depsid ] = depsidf(sigmaT,dsig,invA)
+< %   Calculate irreversible strain increment
+< global a1 a2 a3 a4
+< global C0 C1 phi alpha cc
+< 
+< E = eye(3);
+< temp1=zeros(3,3);
+< temp2=zeros(3,3);
+< temp3=zeros(3,3);
+< dY_dsig = dY_dsigf(sigmaT);
+< dY = Aijkl_Bkl(dY_dsig,dsig);
+< Yd1 = a1*(trace(sigmaT))^2*E+a2*sigmaT*sigmaT+a3*trace(sigmaT)*sigmaT+a4*trace(sigmaT*sigmaT)*E;
+< P_1 = matP_1(sigmaT);
+< P_2 = matP_2(sigmaT);
+< F1ij = Aijkl_Bkl(P_1,Yd1)-1/3*Aij_Bij(Aijkl_Bkl(P_1,Yd1),E)*E;
+< F2ij = Aijkl_Bkl(P_2,Yd1);
+< P_3 = P_1-1/3*Aij_Bkl(E,Aijkl_Bij(P_1,E));
+< df_dOmega = -C1*E;
+< dg_dY = Aijkl_Bij(P_2,F2ij)/sqrt(2*Aij_Bij(F2ij,F2ij));
+< df_dY = Aijkl_Bij(P_3,F1ij)/sqrt(2*Aij_Bij(F1ij,F1ij))-alpha*Aijkl_Bij(P_1,E);
+< df_dsig = Aijkl_Bij(dY_dsig,df_dY);
+< temp1= Aijkl_Bkl(invA,df_dY);% A^(-1):df_dY
+< temp2=Aijkl_Bij(dY_dsig,temp1);% A^(-1):df_dY:dY_dsig
+< temp3=Aijkl_Bij(invA,df_dsig);% df_dsig:A^(-1)
+< temp6=Aij_Bij(temp3,dsig);%df_dsig:A^(-1):dsig
+< temp4=Aij_Bij(df_dsig,temp2);%df_dsig:A^(-1):df_dY:dY_dsig
+< temp5=Aij_Bij(df_dOmega,dg_dY);%df_dOmega:dg_dY
+< 
+< lambdad=temp6/(temp4-temp5);
+< depsid = lambdad*Aijkl_Bij(dY_dsig,df_dY);  %% dg_dY ===> df_dY
+< end
+710c718
+< %    sig_21 sig_22 sig_23 ==> [sig_11 sig_22 sig_33 sig_12 sig_13 sig_23]'
+---
+> %    sig_21 sig_22 sig_23 ==> [sig_11 sig_22 sig_33 sig_12 sig_13 sig_23]^T
+912,999d919
+< function [ matinvA ] = matA(sigmaT,SOm1,H)
+< %UNTITLED8 Summary of this function goes here
+< %   Detailed explanation goes here
+< 
+< global E0 nu0 a1 a2 a3 a4
+< b1 = (1+nu0)/E0/2;
+< b2 = nu0/E0;
+< E = eye(3);
+< %E6 = eye(6);
+< %trOmega = trace(Omega);
+< dS_dOmega(1:3,1:3,1:3,1:3,1:3,1:3) =0;
+< sig_dsdOmega(1:3,1:3,1:3,1:3)=0;
+< temp1(1:3,1:3,1:3,1:3)=0;
+< temp2(1:3,1:3,1:3,1:3)=0;
+< matinvA(1:3,1:3,1:3,1:3)=0;
+< dY_dsig=dY_dsigf(sigmaT);
+< 
+< for i=1:3
+<     for j=1:3
+<         for k=1:3
+<             for l=1:3
+<                 for p=1:3
+<                     for q=1:3
+<                         dS_dOmega(i,j,k,l,p,q)=2*a1*E(i,j)*E(k,l)*E(p,q)+...
+<                             1/4*a2*(E(i,k)*(E(p,j)*E(q,l)+E(p,l)*E(q,j))+...
+<                         E(i,l)*(E(p,j)*E(q,k)+E(p,k)*E(q,j))+...
+<                         E(j,l)*(E(i,p)*E(q,k)+E(i,q)*E(p,k))+...
+<                         E(j,k)*(E(i,p)*E(q,l)+E(i,q)*E(p,l)))+...
+<                         1/2*a3*(E(i,j)*(E(k,p)*E(l,q)+E(k,q)*E(l,p))+E(k,l)*(E(i,p)*E(j,q)+E(i,q)*E(j,p)))+...
+<                         a4*(E(i,k)*E(j,l)+E(i,l)*E(j,k))*E(p,q);
+<                     end
+<                 end
+<             end
+<         end
+<     end
+< end
+< 
+< 
+< for i=1:3
+<     for j=1:3
+<         for k=1:3
+<             for l=1:3
+<                 for p=1:3
+<                     for q=1:3
+<                         sig_dsdOmega(i,j,k,l)=sig_dsdOmega(i,j,k,l)+sigmaT(p,q)*dS_dOmega(p,q,i,j,k,l);
+<                     end
+<                 end
+<             end
+<         end
+<     end
+< end
+< 
+< 
+< temp1 = Aijpq_Bpqkl(sig_dsdOmega,H);
+< temp2 = Aijpq_Bpqkl(temp1,dY_dsig);
+< 
+< matinvA = temp2+SOm1;
+< end
+< 
+< function [ matCed ] = matCedf( sigmaT,invA )
+< %UNTITLED3 Summary of this function goes here
+< %   Detailed explanation goes here
+< global a1 a2 a3 a4 C0 C1 alpha
+< 
+< E = eye(3);
+< temp1=zeros(3,3);
+< temp2=zeros(3,3);
+< temp3=zeros(3,3);
+< Yd1 = a1*(trace(sigmaT))^2*E+a2*sigmaT*sigmaT+a3*trace(sigmaT)*sigmaT+a4*trace(sigmaT*sigmaT)*E;
+< dY_dsig = dY_dsigf(sigmaT);
+< P_1 = matP_1(sigmaT);
+< P_2 = matP_2(sigmaT);
+< F1ij = Aijkl_Bkl(P_1,Yd1)-1/3*Aij_Bij(Aijkl_Bkl(P_1,Yd1),E)*E;
+< F2ij = Aijkl_Bkl(P_2,Yd1);
+< df_dOmega = -C1*E;
+< dg_dY = Aijkl_Bij(P_2,F2ij)/sqrt(2*Aij_Bij(F2ij,F2ij));
+< P_3 = P_1-1/3*Aij_Bkl(E,Aijkl_Bij(P_1,E));
+< df_dY = Aijkl_Bij(P_3,F1ij)/sqrt(2*Aij_Bij(F1ij,F1ij))-alpha*Aijkl_Bij(P_1,E);
+< %pause
+< df_dsig = Aijkl_Bij(dY_dsig,df_dY);
+< %matH=-Aij_Bkl(dg_dY,df_dY)/Aij_Bij(df_dOmega,dg_dY);
+< temp1= Aijkl_Bkl(invA,df_dY); %===>A^(-1):df_dY
+< temp2=Aijkl_Bij(dY_dsig,temp1);%A^(-1):dg_dY:dY_dsig
+< temp3=Aijkl_Bij(invA,df_dsig);%df_dsig:A^(-1)
+< temp4=Aij_Bij(df_dsig,temp2);%df_dsig:A^(-1):dg_dY:dY_dsig
+< temp5=Aij_Bij(df_dOmega,dg_dY);%df_dOmega:dg_dY
+< matCed=invA-Aij_Bkl(temp2,temp3)/(temp4-temp5);
+< end
+1033,1058d952
+< function [ matH ] = matH(sigmaT)
+< %UNTITLED3 Summary of this function goes here
+< %   matH_ijkl
+< %   dOmega = matH_ijkl*dY_kl
+< global a1 a2 a3 a4
+< global C0 C1 phi alpha cc
+< 
+< matH(1:3,1:3,1:3,1:3)=0;
+< E = eye(3);
+< Yd1 = a1*(trace(sigmaT))^2*E+a2*sigmaT*sigmaT+a3*trace(sigmaT)*sigmaT+a4*trace(sigmaT*sigmaT)*E;
+< P_1 = matP_1(sigmaT);
+< P_2 = matP_2(sigmaT);
+< 
+< F1ij = Aijkl_Bkl(P_1,Yd1)-1/3*Aij_Bij(Aijkl_Bkl(P_1,Yd1),E)*E;
+< F2ij = Aijkl_Bkl(P_2,Yd1);
+< 
+< df_dOmega = -C1*E;
+< dg_dY = Aijkl_Bij(P_2,F2ij)/sqrt(2*Aij_Bij(F2ij,F2ij));
+< P_3 = P_1-1/3*Aij_Bkl(E,Aijkl_Bij(P_1,E));
+< df_dY = Aijkl_Bij(P_3,F1ij)/sqrt(2*Aij_Bij(F1ij,F1ij))-alpha*Aijkl_Bij(P_1,E);
+< matH=-Aij_Bkl(dg_dY,df_dY)/Aij_Bij(df_dOmega,dg_dY);
+< 
+< 
+< 
+< end
+< 
+1282a1177,1276
+> [fdm,Yd1] = fdDP(sigm,zeros(3,3),Omegam,Pars);
+> 
+> end
+> 
+> 
+> 
+> function [fdm,sigm,Omegam,depsidm] = lam_single( Omega, sigmaT, epsT, epsid, Pars,deps)
+>  
+> 
+> a1=Pars(1);
+> a2=Pars(2);
+> a3=Pars(3);
+> a4=Pars(4);
+> C0=Pars(5);
+> C1=Pars(6);
+> alpha=Pars(7);
+> 
+> E=eye(3);
+> Yd1 = a1*(trace(sigmaT))^2*E+a2*sigmaT*sigmaT+a3*trace(sigmaT)*sigmaT+a4*trace(sigmaT*sigmaT)*E;
+> dY_dsig = dY_dsigf(sigmaT);
+> P_1 = matP_1(sigmaT);
+> P_2 = matP_2(sigmaT);
+> F1ij = Aijkl_Bkl(P_1,Yd1)-1/3*Aij_Bij(Aijkl_Bkl(P_1,Yd1),E)*E;
+> F2ij = Aijkl_Bkl(P_2,Yd1);
+> F2F2=Aij_Bij(F2ij,F2ij);
+> df_dOmega = -C1*E;
+> 
+> if F2F2==0
+>     dg_dY=zeros(3,3);
+> else    
+>     dg_dY = Aijkl_Bij(P_2,F2ij)/sqrt(2*Aij_Bij(F2ij,F2ij));
+> end
+> dY_dsig = dY_dsigf(sigmaT);
+> P_3 = P_1-1/3*Aij_Bkl(E,Aijkl_Bij(P_1,E));
+> df_dY = Aijkl_Bij(P_3,F1ij)/sqrt(2*Aij_Bij(F1ij,F1ij))-alpha*Aijkl_Bij(P_1,E);
+> [matD,S] = matDO1(Omega);
+> 
+> df_dsig = Aijkl_Bij(dY_dsig,df_dY);
+> De_deps = Aijkl_Bkl(matD,deps);
+> De_dfdsig = Aijkl_Bkl(matD,df_dsig);
+> lambda = Aij_Bij(df_dsig,De_deps)/(Aij_Bij(df_dsig,De_dfdsig)-Aij_Bij(df_dOmega,dg_dY));
+> 
+> % updating depsid
+> 
+> depsidm = lambda*df_dsig;
+> 
+> % updating Omega
+> 
+> dOmegam = lambda*dg_dY;
+> 
+> Omegam = Omega+dOmegam;
+> 
+> [matD,S] = matDO1(Omega);
+> for i=1:3
+>     for j=1:3
+>         for k=1:3
+>             for l=1:3
+>                 for p=1:3
+>                     for q=1:3
+>                         dS_dOmega(i,j,k,l,p,q)=2*a1*E(i,j)*E(k,l)*E(p,q)+...
+>                             1/4*a2*(E(i,k)*(E(p,j)*E(q,l)+E(p,l)*E(q,j))+...
+>                         E(i,l)*(E(p,j)*E(q,k)+E(p,k)*E(q,j))+...
+>                         E(j,l)*(E(i,p)*E(q,k)+E(i,q)*E(p,k))+...
+>                         E(j,k)*(E(i,p)*E(q,l)+E(i,q)*E(p,l)))+...
+>                         1/2*a3*(E(i,j)*(E(k,p)*E(l,q)+E(k,q)*E(l,p))+E(k,l)*(E(i,p)*E(j,q)+E(i,q)*E(j,p)))+...
+>                         a4*(E(i,k)*E(j,l)+E(i,l)*E(j,k))*E(p,q);
+>                     end
+>                 end
+>             end
+>         end
+>     end
+> end
+> temp1 = -invmat4(Aijpq_Bpqkl(S,S));
+> dmatD_dOmega=zeros(3,3,3,3,3,3);
+> for i=1:3
+>     for j=1:3
+>         for k=1:3
+>             for l=1:3
+>                 for m=1:3
+>                     for n=1:3
+>                         for p=1:3
+>                             for q=1:3
+>     dmatD_dOmega(i,j,k,l,m,n)=dmatD_dOmega(i,j,k,l,m,n)+temp1(i,j,p,q)*dS_dOmega(p,q,k,l,m,n);
+>                             end
+>                         end
+>                     end
+>                 end
+>             end
+>         end
+>     end
+> end
+> 
+> matDem = matD + lambda*Aijklpq_Bpq(dmatD_dOmega,dg_dY);
+> 
+> epsm = epsT+deps-epsid-depsidm;
+> 
+> sigm = Aijkl_Bkl(matDem,epsm);
+> 
+> 
+> 
