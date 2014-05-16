@@ -1,0 +1,1593 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+
+%% Created for Xu, Hao at 2013-12-05 10:02:42 -0500 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@book{JaegerBook,
+	Author = {J. C. Jaeger and N. G.W. Cook and R. W. Zimmerman},
+	Date-Added = {2013-12-05 15:00:52 +0000},
+	Date-Modified = {2013-12-05 15:02:41 +0000},
+	Edition = {Fourth Edition},
+	Publisher = {Blackwell Publishing},
+	Title = {Fundamentals of Rock Mechanics},
+	Year = {2007}}
+
+@article{Halm2002,
+	Author = {Halm, D. and A. Dragon},
+	Date-Added = {2013-12-03 16:59:38 +0000},
+	Date-Modified = {2013-12-03 16:59:38 +0000},
+	Journal = {Revue Francaise de Genie Civi.},
+	Pages = {21--33},
+	Title = {Modelisation de l'endommagement par mesofissuration du granite},
+	Volume = {17},
+	Year = {2002}}
+
+@article{Sethuraman2008,
+	Author = {Sethuraman, R. and Reddy, C.S.},
+	Date-Added = {2013-12-03 16:56:17 +0000},
+	Date-Modified = {2013-12-03 16:57:05 +0000},
+	Journal = {nternational Journal of Computational Methods},
+	Number = {1},
+	Pages = {91--117},
+	Title = {Pseudo-Elastic Analysis of Elastic-Plastic Crack Tip Fields Using Element-Free Galerkin Method},
+	Volume = {5},
+	Year = {2008}}
+
+@article{Kourepinis2010,
+	Author = {Kourepinis, D. and Pearce, C. and Bicanic, N.},
+	Date-Added = {2013-12-03 16:54:59 +0000},
+	Date-Modified = {2013-12-03 16:56:08 +0000},
+	Journal = {International Journal of Computational Methods},
+	Number = {1},
+	Pages = {83--106},
+	Title = {Higher-Order Discontinuous Modeling or Fracturing In Concrete Using the Numerical Manifold Method},
+	Volume = {7},
+	Year = {2010}}
+
+@article{Mazars1996,
+	Author = {Mazars, J. and Pijaudier-Cabot, G.},
+	Date-Added = {2013-12-03 15:32:20 +0000},
+	Date-Modified = {2013-12-03 15:33:04 +0000},
+	Journal = {International Journal of Solids and Structures},
+	Number = {22},
+	Pages = {3327--3342},
+	Title = {From Damage to Fracture Mechanics and Conversely: A Combined Approach.},
+	Volume = {33},
+	Year = {1996}}
+
+@article{Nagashima2006,
+	Author = {Nagashima, T. and Suemasu, H.},
+	Date-Added = {2013-12-03 15:31:10 +0000},
+	Date-Modified = {2013-12-03 15:31:56 +0000},
+	Journal = {International Journal of Computational Methods},
+	Number = {4},
+	Pages = {521--543},
+	Title = {Stress analyses of Composite Laminate with Delamination Using X-FEM.},
+	Volume = {3},
+	Year = {2006}}
+
+@article{Li2004,
+	Author = {Li, S. and Ghosh, S.},
+	Date-Added = {2013-12-03 15:30:01 +0000},
+	Date-Modified = {2013-12-03 15:30:57 +0000},
+	Journal = {International Journal of Computational Methods},
+	Number = {1},
+	Pages = {121--149},
+	Title = {Debonding in Composite Microstructures with Morphological Variations.},
+	Volume = {1},
+	Year = {2004}}
+
+@article{Gatmiri2008,
+	Author = {Gatmiri, B. and Arson, C.},
+	Date-Added = {2013-12-03 15:28:05 +0000},
+	Date-Modified = {2013-12-03 15:29:07 +0000},
+	Journal = {Computers \& Geotechnics},
+	Number = {8},
+	Pages = {890--915},
+	Title = {Theta-Stock, a powerful tool for thermohydromechanical behaviour and damage modelling of unsaturated porous media},
+	Volume = {35},
+	Year = {2008}}
+
+@article{Loucks2009,
+	Author = {Loucks, R.G. and Reed, R.M. and Ruppel, S.C. and Jarvie, D.M.},
+	Date-Added = {2013-12-03 15:25:49 +0000},
+	Date-Modified = {2013-12-03 15:27:22 +0000},
+	Journal = {Journal of Sedimentary Research},
+	Pages = {848--861},
+	Title = {Morphology, Genesis, and Distribution of Nanometer-Scale Pores in Siliceous Mudstones of the Mississippian Barnett Shale},
+	Volume = {79},
+	Year = {2009}}
+
+@article{Bae2006,
+	Author = {Bae, J.-S. and Bhatia, S.K.},
+	Date-Added = {2013-12-03 15:23:27 +0000},
+	Date-Modified = {2013-12-03 15:25:31 +0000},
+	Journal = {Energy \& Fuels},
+	Number = {6},
+	Pages = {2599--2607},
+	Title = {High-pressure adsorption of methane and carbon dioxide on coal.},
+	Volume = {20},
+	Year = {2006}}
+
+@article{Lee1998,
+	Author = {Lee, J. and Fenves, G.},
+	Date-Added = {2013-12-03 15:22:03 +0000},
+	Date-Modified = {2013-12-03 15:22:54 +0000},
+	Journal = {Journal of Engineering Mechanics},
+	Pages = {892--900},
+	Title = {Plastic-damage model for cyclic loading of concrete structures},
+	Volume = {124},
+	Year = {1998}}
+
+@article{Mazars1989,
+	Author = {Mazars, J. and Pijaudier-Cabot, G},
+	Date-Added = {2013-12-03 15:19:04 +0000},
+	Date-Modified = {2013-12-03 15:21:03 +0000},
+	Journal = {Journal of Engineering Mechanics},
+	Number = {2},
+	Pages = {345--365},
+	Title = {Continuum damage theory - application to concrete.},
+	Volume = {115},
+	Year = {1989}}
+
+@article{Mazars1986,
+	Author = {J. Mazars},
+	Date-Added = {2013-12-03 15:16:36 +0000},
+	Date-Modified = {2013-12-03 15:21:45 +0000},
+	Journal = {Engineering Fracture Mechancis},
+	Number = {5--6},
+	Pages = {729--737},
+	Title = {A description of micro- and macro scale damage of concrete structures},
+	Volume = {25},
+	Year = {1986}}
+
+@article{Abe79,
+	Author = {H. Abe and L.M. keer and T. Mura},
+	Booktitle = {on Fracture Mechanics Approach, Hydraulic Fracture and Geothermal Energy},
+	Journal = {int. J. Num. Ana. Methods in Geomech.},
+	Pages = {79-96},
+	Title = {Theoretical study of hydraulic fractured penny-shaped cracks in hot, dry rocks},
+	Volume = {3},
+	Year = {1979}}
+
+@article{Abou78,
+	Author = {A. S. Abou-Sayed},
+	Journal = {VDI-Berichte.},
+	Pages = {829-824},
+	Title = {An experimental technique for measuring the fracture toughness of rocks under downhole stress condition},
+	Volume = {313},
+	Year = {1978}}
+
+@article{Abualrub2010,
+	Author = {Abu Al-Rub, R. K. and Kim, S.-M.},
+	Date-Added = {2013-07-09 17:54:35 +0000},
+	Date-Modified = {2013-07-09 17:56:03 +0000},
+	Journal = {Engineering Fracture Mechanics},
+	Pages = {1577--1603},
+	Title = {Computational applications of a coupled plasticity-damage constitutive model for simulating plain concrete fracture.},
+	Volume = {77},
+	Year = {2010}}
+
+@article{Abualrub2003,
+	Author = {Rashid K. {Abu Al-Rub} and george Z, Voyiadjis},
+	Date-Modified = {2013-07-11 14:34:53 +0000},
+	Journal = {International Journal of Solids and Structures},
+	Pages = {2611-2643},
+	Title = {On the coupling of anisotropic damage and plasticity models for ductile materials},
+	Volume = {40},
+	Year = {2003}}
+
+@article{Adachi2007,
+	Author = {J. Adachi and E. Siebrits and A. Peirce and J. Desroches},
+	Date-Modified = {2013-07-10 18:20:20 +0000},
+	Journal = {International Journal of Rock Mechanics and Mining Sciences},
+	Pages = {739-757},
+	Title = {Computer simulation of hydraulic fractures},
+	Volume = {44},
+	Year = {2007}}
+
+@article{Altmann2010,
+	Author = {Johannes B. Altmann and Tobias M. Muller and Birgit I.R. Muller and Mark R.P. Tingay and Oliver Heidbach},
+	Journal = {International Journal of Rock Mechanics \& Mining Sciences},
+	Owner = {pavling},
+	Pages = {1104--1113},
+	Timestamp = {2013.10.21},
+	Title = {Poroelastic contribution to the reservoir stress path},
+	Volume = {47},
+	Year = {2010}}
+
+@article{Arson2012,
+	Author = {C. Arson},
+	Issue = {1},
+	Journal = {Special Topics \& Reviews in Porous Media},
+	Pages = {69-77},
+	Title = {Using a geo-mechanical damage model to assess permeability in cracked porous media: internal length parameter issues},
+	Volume = {3},
+	Year = {2012}}
+
+@article{proposal11,
+	Author = {Chlo\'e Arson},
+	Title = {Proposal of Finite Element Modeling of Hydraulic Fracturing},
+	Year = {2011}}
+
+@phdthesis{Arsonphd,
+	Address = {Paris},
+	Author = {Chlo\'e Arson},
+	Month = {Sep.},
+	School = {Ecole Nationale des Ponts et Chauss\'ees},
+	Title = {Etude th\'eorique et num\'erique de l'endommagement thermo-hydro-m\'ecanique des milieux poreux non satur\'es},
+	Year = {2009}}
+
+@article{ArsonGatmiri2012,
+	Author = {C. Arson and B. Gatmiri},
+	Journal = {International Journal for Numerical and Analytical Methods in Geomechanics},
+	Pages = {272-306},
+	Title = {Thermo-Hydro-Mechanical Modeling of Damage in Unsaturated Porous Media: Theoretical Framework and Numerical Study of the EDZ},
+	Volume = {36},
+	Year = {2012}}
+
+@article{Arson2011,
+	Author = {C. Arson and B. Gatmiri},
+	Journal = {Physics and Chemistry of the Earth},
+	Pages = {1981-1989},
+	Title = {Numerical Study of Damage in Unsaturated Geological and Engineered Barriers},
+	Volume = {36},
+	Year = {2011}}
+
+@article{Arson2010,
+	Author = {C. Arson and B. Gatmiri},
+	Issue = {2},
+	Journal = {Annals of Solid and Structural Mechanics},
+	Pages = {59-78},
+	Title = {Numerical study of a thermo-hydro-mechanical damage model for unsaturated porous media},
+	Volume = {1},
+	Year = {2010}}
+
+@article{Arson2009,
+	Author = {C. Arson and B. Gatmiri},
+	Journal = {Comptes-Rendus de l'Acad\'{e}mie des Sciences de Paris, section M\'{e}canique},
+	Pages = {68-74},
+	Title = {A mixed damage model for unsaturated porous media},
+	Volume = {337},
+	Year = {2009}}
+
+@article{Arson2008KEM,
+	Author = {C. Arson and B. Gatmiri},
+	Journal = {Key Engineering Materials, Advances in Fracture and Damage Mechanics VII},
+	Pages = {137-140},
+	Title = {Excavation damage in unsaturated porous media},
+	Volume = {385-387},
+	Year = {2008}}
+
+@article{Arson2008PCE,
+	Author = {C. Arson and B. Gatmiri},
+	Journal = {Physics and Chemistry of the Earth},
+	Pages = {S407�S415},
+	Title = {On damage modelling in unsaturated clay rocks},
+	Volume = {33},
+	Year = {2008}}
+
+@article{ArsonPereira2012,
+	Author = {C. Arson and J.-M. Pereira},
+	Journal = {International Journal for Numerical and Analytical Methods in Geomechanics},
+	Pages = {DOI: 10.1002/nag.1123},
+	Title = {Influence of damage on pore size distribution and permeability of rocks},
+	Year = {2012}}
+
+@article{ArsonXuChester2012,
+	Author = {C. Arson and H. Xu and F.M. Chester},
+	Journal = {G\'{e}otechnique Letters},
+	Pages = {DOI: 10.1680/geolett.12.00013},
+	Title = {On The Definition Of Damage In Time-Dependent Healing Models For Salt Rock},
+	Year = {2012}}
+
+@article{Ashby1986,
+	Author = {M. F. Ashby and S. D. Hallam},
+	Date-Added = {2013-10-03 23:02:18 +0000},
+	Date-Modified = {2013-10-03 23:14:25 +0000},
+	Journal = {Acta Metallurgica},
+	Number = {3},
+	Pages = {497--510},
+	Title = {The failure of brittle solids containing small cracks under compressive stress states},
+	Volume = {34},
+	Year = {1986}}
+
+@article{Ashby1990,
+	Author = {M. F. Ashby and C. G. Sammis},
+	Date-Added = {2013-10-03 23:28:20 +0000},
+	Date-Modified = {2013-10-03 23:29:49 +0000},
+	Journal = {Pure and Applied Geophysics},
+	Month = {May},
+	Number = {3},
+	Pages = {489-521},
+	Title = {The damage mehcanics of brittle solids in compression},
+	Volume = {133},
+	Year = {1990}}
+
+@article{Belytschko99,
+	Author = {T. Belytschko and T. Black},
+	Journal = {International Journal of Fracture Mechanics},
+	Pages = {601-620},
+	Title = {Elastic crack growth in finite elements with minimal remeshing},
+	Volume = {45},
+	Year = {1999}}
+
+@phdthesis{Busetti2009,
+	Author = {Busetti, S.},
+	School = {University of Oklahoma},
+	Title = {{Fracturing of Layered Reservoir Rocks}},
+	Year = {2009}}
+
+@article{Chaboche1993,
+	Author = {Chaboche, J.-L.},
+	Date-Added = {2013-07-09 18:00:45 +0000},
+	Date-Modified = {2013-07-09 18:02:04 +0000},
+	Journal = {International Journal of Damage Mechanics},
+	Pages = {311--329},
+	Title = {Development of continuum damage mechanics for elastic solids sustaining anisotropic and unilateral damage},
+	Volume = {2},
+	Year = {1993}}
+
+@article{Chan1996,
+	Author = {K.S. Chan and D.E. Munson and S.R. Bodner and A.F. Fossum},
+	Date-Added = {2013-09-12 05:12:26 +0000},
+	Date-Modified = {2013-09-12 05:15:20 +0000},
+	Journal = {Acta Materialia},
+	Number = {9},
+	Pages = {3553--3565},
+	Title = {Cleavage and Creep Freacture of Rock Salt},
+	Volume = {44},
+	Year = {1996}}
+
+@article{Chan2001,
+	Author = {Kwai S. Chan and Sol R. Bodner and Darrell E. Munson},
+	Date-Modified = {2013-10-03 23:10:34 +0000},
+	Journal = {International Journal of Damage Mechanics},
+	Month = {Oct.},
+	Number = {4},
+	Pages = {347-375},
+	Title = {Permeability of WIPP salt during damage evolution and healing},
+	Volume = {10},
+	Year = {2001}}
+
+@article{Chow1989,
+	Author = {Chow, C.L and Lu, T.L.},
+	Journal = {Engineering Fracture Mechanics},
+	Number = {3},
+	Pages = {679--701},
+	Title = {{On Evolution Laws of Anisotropic Damage}},
+	Volume = {34},
+	Year = {1989}}
+
+@article{Cicekli2007,
+	Author = {Cicekli, U. and Voyiadjis, G. Z. and Abu Al-Rub, R. K.},
+	Date-Added = {2013-07-09 17:56:09 +0000},
+	Date-Modified = {2013-07-09 17:57:43 +0000},
+	Journal = {International Journal of Plasticity},
+	Pages = {1874--1900},
+	Title = {A plasticity and anisotropic damage model for plain concrete.},
+	Volume = {23},
+	Year = {2007}}
+
+@article{Collins1997,
+	Author = {Collins, I. F. and Houlsby, G. T.},
+	Date-Modified = {2013-07-11 14:56:13 +0000},
+	Journal = {Proceedings: Mathematical, Physical and Engineering Sciences},
+	Number = {1964},
+	Pages = {1975--2001},
+	Title = {Application of Thermomechanical Principles to the Modelling of Geotechnical Materials.},
+	Volume = {453},
+	Year = {1997},
+	Bdsk-Url-1 = {http://prx.library.gatech.edu/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=edsjls&AN=10.2307.53033&site=eds-live&scope=site}}
+
+@proceedings{Colovos2013,
+	Address = {San Francisco, California},
+	Author = {Colovos, J.W. and Brannon, R.B. and Pinsky, P.M.},
+	Date-Added = {2013-07-10 18:24:38 +0000},
+	Date-Modified = {2013-07-10 18:26:21 +0000},
+	Month = {23-26 June},
+	Organization = {the 47th US Rock Mechanics/Geomechancis Symposium},
+	Title = {Reduction of macroscale calibration experiments through constraints on anisotropic elastic stiffnesses},
+	Year = {2013}}
+
+@book{Coussybook04,
+	Author = {Olivier Coussy},
+	Publisher = {John Wiley \& Sons},
+	Title = {Poromechanics},
+	Year = {2004}}
+
+@book{Coussybook95,
+	Author = {Olivier Coussy},
+	Publisher = {John Wiley \& Sons},
+	Title = {Mechanics of Porous Continua},
+	Year = {1995}}
+
+@article{Cowin1985,
+	Author = {Cowin, Stephen C},
+	Date-Modified = {2013-07-10 18:27:08 +0000},
+	Journal = {Mechanics of Materials},
+	Pages = {137--147},
+	Title = {{The relationship between the elasticity tensor and the fabric tensor}},
+	Volume = {4},
+	Year = {1985}}
+
+@article{Dahi11,
+	Author = {Arash Dahi-Taleghani and Jon E. Olson},
+	Journal = {SPE journal},
+	Month = {September},
+	Pages = {575-581},
+	Title = {Numerical Modeling of Multistranded-Hydraulic-Fracture Propagation: Accounting for the interaction between induced and Natural Fractures},
+	Volume = {16},
+	Year = {2011}}
+
+@article{Das11,
+	Author = {Indrajit Das and Mark D. Zoback},
+	Journal = {The Leading Edge},
+	Month = {July},
+	Pages = {778-786},
+	Title = {Long-period, long-duration seismic events during hydraulic fracture stimulation of a shale gas reservoir},
+	Year = {2011}}
+
+@article{Deng1992,
+	Author = {H. Deng and S. Nemat-Nasser},
+	Date-Added = {2013-10-03 22:55:34 +0000},
+	Date-Modified = {2013-10-03 23:19:40 +0000},
+	Journal = {Mechanics of Materials},
+	Pages = {83--103},
+	Title = {Dynamic damage evolution in brittle solids},
+	Volume = {14},
+	Year = {1992}}
+
+@article{Desmorat2006,
+	Author = {Rodrigue Desmorat},
+	Date-Added = {2012-11-02 18:12:39 +0000},
+	Date-Modified = {2012-11-02 18:14:29 +0000},
+	Journal = {Comptes Rendus Mecanique},
+	Title = {Positivit{\'e} de la dissipation intrins{\`e}que d'une classe de mod{\`e}les d'endommagement anisotropes non standards},
+	Year = {2006}}
+
+@article{Deude2002b,
+	Author = {Deud\'{e}, V and Dormieux, L and Kondo, D and Maghous, S},
+	Journal = {Journal of Engineering Mechanics},
+	Number = {8},
+	Pages = {848--855},
+	Title = {{Micromechanical Approach to Nonlinear Poroelasticity : Application to Cracked Rocks}},
+	Volume = {128},
+	Year = {2002}}
+
+@article{Deude2002a,
+	Author = {Deud\'{e}, Vincent and Dormieux, Luc and Kondo, Djim\'{e}do and Pens\'{e}e, Vincent},
+	Journal = {C.R. M\'{e}canique, Acad. Sci. Paris},
+	Pages = {587--592},
+	Title = {{Propri\'{e}t\'{e}s \'{e}lastiques non lin\'{e}aires d ' un milieu m\'{e}sofissur\'{e}}},
+	Volume = {330},
+	Year = {2002}}
+
+@article{Dufour2012,
+	Author = {N. Dufour and H. Wong and C. Arson and F. Deleruyelle and J.-M. Pereira},
+	Journal = {Mechanics Research Communications},
+	Pages = {DOI: 10.1016/j.mechrescom.2012.06.009},
+	Title = {A thermodynamically consistent framework for saturated viscoplastic rock-materials subject to damage},
+	Year = {2012}}
+
+@inproceedings{Economides1994,
+	Author = {Economides, M.J. and Valko, P.},
+	Booktitle = {Computer Methods and Advances in Geomechanics},
+	Pages = {1579--1584},
+	Title = {{Interpretation and modeling of hydraulic frcturing phenomena with continuum damage mechanics - An application to engineering design}},
+	Year = {1994}}
+
+@article{Egner12,
+	Author = {Halina Egner},
+	Journal = {International Journal of Solids and Structures},
+	Pages = {279-288},
+	Title = {On the full coupling between thermo-plasticity and thermo-damage in thermodynamic modeling of dissipative materials},
+	Volume = {49},
+	Year = {2012}}
+
+@article{Farias2009,
+	Author = {M{\'a}rcio M. Farias and Dorival M. Pedroso and Teruo Nakai},
+	Journal = {Computers and Geotechnics},
+	Owner = {pavling},
+	Pages = {537--548},
+	Timestamp = {2013.10.21},
+	Title = {Automatic substepping integration of the subloading tij model with stress path dependent hardening},
+	Volume = {36},
+	Year = {2009}}
+
+@article{Faulkner2006,
+	Author = {Faulkner, D R and Mitchell, T M and Healy, D and Heap, M J},
+	Issn = {1476-4687},
+	Journal = {Nature},
+	Month = dec,
+	Number = {7121},
+	Pages = {922--5},
+	Pmid = {17167484},
+	Title = {{Slip on 'weak' faults by the rotation of regional stress in the fracture damage zone.}},
+	Volume = {444},
+	Year = {2006},
+	Bdsk-Url-1 = {http://www.ncbi.nlm.nih.gov/pubmed/17167484},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1038/nature05353}}
+
+@article{Fischer11,
+	Author = {Tomas Fischer and Alice Guest},
+	Journal = {Geophysical Research Letters},
+	Title = {Shear and tensile earthquakes caused by fluid injection},
+	Volume = {38},
+	Year = {2011}}
+
+@article{Floreznino2005,
+	Author = {Florez-Nino, J-.M and Aydin, A. and Mavko, G. and Antonellini, M. and Ayaviri, A.},
+	Date-Added = {2013-07-10 18:03:50 +0000},
+	Date-Modified = {2013-07-10 18:05:12 +0000},
+	Journal = {AAPG Bulletin},
+	Number = {4},
+	Pages = {471--493},
+	Title = {Fault and fracture systems in a fold and thrust belt: An example from Bolivia},
+	Volume = {89},
+	Year = {2005}}
+
+@article{Fuenkajorn11,
+	Author = {Kittitep Fuenkajorn and Decho Phueakphum},
+	Journal = {Bulletin of Engineering Geology and the Environment},
+	Pages = {1-8},
+	Title = {Laboratory assessment of healing of fractures in rock salt},
+	Year = {2011}}
+
+@conference{Fuenkajorn03,
+	Author = {K. Fuenkajorn and D. Phueakphum and M. Jandakaew},
+	Booktitle = {Proceedings of the 38th symposium engineering geology and geotechnical engineering.},
+	Pages = {393-408},
+	Title = {Healing of rock salt fractures.},
+	Year = {2003}}
+
+@article{Garcia,
+	Author = {I. Garcia-Bengoechea and CW. Lowell and AG. Altschaeffl},
+	Journal = {J. Geotech. Eng. Div.},
+	Pages = {839--856},
+	Title = {Pore distribution and permeability of silty clays},
+	Volume = {105},
+	Year = {1979}}
+
+@article{ThetaStock1,
+	Author = {B. Gatmiri and C. Arson},
+	Journal = {Computers and Geotechnics},
+	Number = {6},
+	Pages = {890-915},
+	Title = {Theta-Stock, a powerful tool for thermohydromechanical behaviour and damage modelling of unsaturated porous media},
+	Volume = {35},
+	Year = {2008}}
+
+@article{ThetaStock2,
+	Author = {B. Gatmiri and S. Hemmati and C. Arson and E. Emirzehni},
+	Journal = {Journal of Multiscale Modelling},
+	Number = {1-2},
+	Pages = {23-68},
+	Title = {A Multiphase Analysis for Environmental Impact Assessment with Theta-Stock Finite Element Program},
+	Volume = {2},
+	Year = {2011}}
+
+@article{Geertsma69,
+	Author = {Geertsma, J. and de Klerk, F.},
+	Journal = {J. Pet. Tech.},
+	Pages = {1571-81},
+	Title = {A rapid method of predicting width and extent of hydraulically induced fractures},
+	Volume = {21},
+	Year = {1969}}
+
+@article{Germanovinch10,
+	Author = {Leonid N. Germanovinch and Lawrence C. Murdoch},
+	Journal = {Proceedings of the Royal Society-Mathematical Physical and Engineering Sciences},
+	Pages = {3225-3252},
+	Title = {Injection of solids to lift coastal areas},
+	Volume = {466},
+	Year = {2010}}
+
+@inproceedings{Green50,
+	Author = {Green AE, Sneddon IN},
+	Booktitle = {Proc. Cambridge Philos. Soc.},
+	Pages = {159-63},
+	Title = {The distribution of stress in the neighbourhood of a flat elliptical crack in an elastic solid},
+	Volume = {46},
+	Year = {1950}}
+
+@article{Halm1998,
+	Author = {D. Halm and A. Dragon},
+	Date-Modified = {2013-04-19 19:30:26 +0000},
+	Journal = {Eur. J. Mech. A/ Solids},
+	Number = {3},
+	Pages = {439-460},
+	Title = {An anisotropic model of damage and frictional sliding for brittle materials},
+	Volume = {17},
+	Year = {1998}}
+
+@article{Hansen1994,
+	Author = {Hansen, N.R. and Schreyer, H.L.},
+	Date-Added = {2013-07-11 14:40:46 +0000},
+	Date-Modified = {2013-07-11 14:42:13 +0000},
+	Journal = {Int. J. Solids and Structures},
+	Number = {3},
+	Pages = {359--389},
+	Title = {A thermodynamically consistent framework for theories of elastoplasticity coupled with damage},
+	Volume = {31},
+	Year = {1994}}
+
+@article{Hayakawa1997,
+	Author = {Hayakawa, K. and Murakami, S.},
+	Date-Added = {2013-07-09 18:07:37 +0000},
+	Date-Modified = {2013-07-09 18:08:48 +0000},
+	Journal = {International Journal of Damage Mechanics},
+	Pages = {333--363},
+	Title = {Thermodynamical modeling of elastic-plastic damage and experimental validation of damage potential},
+	Volume = {6},
+	Year = {1997}}
+
+@article{Healy2008,
+	Author = {Healy, David},
+	Date-Modified = {2013-07-11 15:00:45 +0000},
+	Journal = {Journal of Geophysical Research},
+	Month = dec,
+	Number = {B12},
+	Pages = {1--16},
+	Title = {{Damage patterns, stress rotations and pore fluid pressures in strike-slip fault zones}},
+	Volume = {113},
+	Year = {2008},
+	Bdsk-Url-1 = {http://www.agu.org/pubs/crossref/2008/2008JB005655.shtml},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1029/2008JB005655}}
+
+@article{Heap2010,
+	Author = {Heap, M. J. and Faulkner, D. R. and Meredith, P. G. and Vinciguerra, S.},
+	Date-Modified = {2013-07-11 15:01:14 +0000},
+	Journal = {Geophysical Journal International},
+	Month = oct,
+	Number = {1},
+	Pages = {225--236},
+	Title = {{Elastic moduli evolution and accompanying stress changes with increasing crack damage: implications for stress changes around fault zones and volcanoes during deformation}},
+	Volume = {183},
+	Year = {2010},
+	Bdsk-Url-1 = {http://doi.wiley.com/10.1111/j.1365-246X.2010.04726.x},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1111/j.1365-246X.2010.04726.x}}
+
+@article{Homand-Etienne1998,
+	Author = {Homand-Etienne, F. and Hoxha, D and Shao, J. F.},
+	Date-Modified = {2013-07-09 18:00:16 +0000},
+	Journal = {Computers and Geotechnics},
+	Number = {2},
+	Pages = {135--151},
+	Title = {{A Continuum Damage Constitutive Law for Brittle Rocks}},
+	Volume = {22},
+	Year = {1998}}
+
+@article{Horii1986,
+	Author = {H. Horii and S. Nemat-Nasser},
+	Date-Added = {2013-10-03 23:15:47 +0000},
+	Date-Modified = {2013-10-03 23:19:02 +0000},
+	Journal = {Philosophical Transactions of the Royal Society of London. Series A, MAthematical and Physical Science},
+	Number = {1549},
+	Pages = {337--374},
+	Title = {Brittle failure in compression: splitting, faulting and brittle-ductile transition},
+	Volume = {319},
+	Year = {1986}}
+
+@article{Horii1985,
+	Author = {H. Horii and S. Nemet-Nasser},
+	Date-Added = {2013-10-03 23:11:49 +0000},
+	Date-Modified = {2013-10-03 23:13:34 +0000},
+	Journal = {Journal of Geophysical Research},
+	Number = {B4},
+	Pages = {3105--3125},
+	Title = {Compression-induced microcrack growth in brittle solids: axial splitting and shear failure},
+	Volume = {90},
+	Year = {1985}}
+
+@article{Hou03,
+	Author = {Zhengmeng Hou},
+	Journal = {International Journal of Rock Mechanics \& Mining Sciences},
+	Month = {July},
+	Number = {5},
+	Pages = {725-738},
+	Title = {Mechanical and hydraulic behavior of rock salt in the excavation disturbed zone around underground facilities.},
+	Volume = {40},
+	Year = {2003}}
+
+@book{Houlsby2006,
+	Author = {G. T. Houlsby and A. M. Puzrin},
+	Date-Added = {2012-09-06 15:29:46 +0000},
+	Date-Modified = {2013-07-11 14:24:09 +0000},
+	Publisher = {London},
+	Title = {Principles of hyperplasticity an approach to plasticity theory based on thermodynamic principles},
+	Year = {2006}}
+
+@article{Huang2002,
+	Author = {Chengyi Huang and Ghatu Subhash and Stanley J. Vitton},
+	Date-Added = {2013-10-03 22:59:07 +0000},
+	Date-Modified = {2013-10-03 23:13:41 +0000},
+	Journal = {Mechanics of Materials},
+	Pages = {267--277},
+	Title = {A dynamic damage growth model for uniaxial compressive response of rock aggregates},
+	Volume = {34},
+	Year = {2002}}
+
+@article{Hunsche99,
+	Author = {Udo Hunsche and Andreas Hampel},
+	Journal = {Engineering Geology},
+	Month = {April},
+	Number = {3-4},
+	Pages = {271-291},
+	Title = {Rock salt - the mechanical properties of the host rock material for a radioactive waste repository.},
+	Volume = {52},
+	Year = {1999}}
+
+@article{Ishida04,
+	Author = {Tsuyoshi Ishida and Qu Chen and Yoshiaki Mizuta and Jean-Claude Roegiers},
+	Journal = {Transactions of the ASME},
+	Pages = {190-200},
+	Title = {Influence of Fluid Viscosity on the Hydraulic Fracturing Mechanism},
+	Volume = {126},
+	Year = {2004}}
+
+@article{Jamison1992,
+	Author = {William R. Jamison},
+	Journal = {Journal of Structural Geolog},
+	Owner = {pavling},
+	Pages = {1111--1120},
+	Timestamp = {2013.10.21},
+	Title = {Stress spaces and stress paths},
+	Volume = {14},
+	Year = {1992}}
+
+@article{Jones1986,
+	Author = {Mervyn E. Jones and Michael A. Addis},
+	Journal = {Journal of Structural Geolog},
+	Owner = {pavling},
+	Pages = {575--580},
+	Timestamp = {2013.10.21},
+	Title = {The application of stress path and critical state analysis to sediment deformation},
+	Volume = {8},
+	Year = {1986}}
+
+@article{Kachanov1958,
+	Author = {L.M. Kachanov},
+	Date-Modified = {2013-12-03 15:10:09 +0000},
+	Journal = {Izvestia Akademii Nauk SSSR, Otdelenie tekhnicheskich nauk},
+	Pages = {26-31},
+	Title = {Rupture time under creep conditions},
+	Volume = {8},
+	Year = {1958}}
+
+@article{Kachanov1992,
+	Author = {M. Kachanov},
+	Date-Modified = {2013-07-11 14:11:08 +0000},
+	Journal = {Appl. Mech. Rev.},
+	Month = {Aug.},
+	Number = {8},
+	Pages = {304-335},
+	Title = {Effective elastic properties of cracked solids: critical review of some basic concepts},
+	Volume = {45},
+	Year = {1992}}
+
+@article{Keshavarz10,
+	Author = {M. Keshavarz and F. Pellet and B. Loret},
+	Journal = {Pure \& Applied Geophysics},
+	Month = {Dec.},
+	Number = {12},
+	Pages = {1511-1523},
+	Title = {Damage and Changes in Mechanical Properties of a Gabbro Thermally Loaded up to 1,000 ${}^{\circ}$ C.},
+	Volume = {167},
+	Year = {2010}}
+
+@inproceedings{Khristianovic55,
+	Address = {Rome},
+	Author = {Khristianovic, S.A. and Zheltov, Y.P.},
+	Booktitle = {Proceedings of the fourth world petroleum congress},
+	Pages = {57--86},
+	Title = {Formation of vertical fractures by means of highly viscous liquid},
+	Year = {1955}}
+
+@article{Kondo2004,
+	Author = {Kondo, D. and Dormieux, L.},
+	Journal = {Comptes-Rendus de M\'{e}canique, Acad. Sci. Paris},
+	Pages = {135--140},
+	Title = {Approche micro-m\'{e}canique du couplage perm�abilit\'{e} - endommagement},
+	Volume = {332},
+	Year = {2004}}
+
+@book{Krajcinovic1996,
+	Author = {Krajcinovic, D.},
+	Isbn = {0444823492},
+	Publisher = {North-Holland},
+	Title = {{Damage Mechanics}},
+	Year = {1996}}
+
+@book{Dormieux06,
+	Author = {L. Dormieux, D. Kondo, F.J. Ulm},
+	Publisher = {John Wiley \& Sons},
+	Title = {Microporomechanics},
+	Year = {2006}}
+
+@article{Lacy1999,
+	Author = {Lacy, Thomas E. and McDowell, David L. and Talreja, Ramesh},
+	Issn = {01676636},
+	Journal = {Mechanics of Materials},
+	Month = dec,
+	Number = {12},
+	Pages = {831--860},
+	Title = {{Gradient concepts for evolution of damage}},
+	Volume = {31},
+	Year = {1999},
+	Bdsk-Url-1 = {http://linkinghub.elsevier.com/retrieve/pii/S0167663699000290},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1016/S0167-6636(99)00029-0}}
+
+@inproceedings{Lecampion2012,
+	Address = {Chicago, IL},
+	Author = {Lecampion, B.},
+	Booktitle = {46th Rock Mechanics Geomechanics Symposium},
+	Title = {{Hydraulic fracture initiation from an open-hole : wellbore size , pressurization rate and fluid-solid coupling effects}},
+	Volume = {2},
+	Year = {2012}}
+
+@article{Lee1999,
+	Author = {Der-Her Lee and C.H. Juang and Jin-Wen Chen and Hung-Ming Lin and Wen-Hwang Shieh},
+	Journal = {International Journal of Rock Mechanics and Mining Sciences},
+	Owner = {pavling},
+	Pages = {857--870},
+	Timestamp = {2013.10.21},
+	Title = {Stress paths and mechanical behavior of a sandstone in hollow cylinder tests},
+	Volume = {36},
+	Year = {1999}}
+
+@article{Lee2011,
+	Author = {Jae Young Lee and Sung Youll Ahn},
+	Journal = {Finite Elements in Analysis and Design},
+	Owner = {pavling},
+	Pages = {496--510},
+	Timestamp = {2013.10.21},
+	Title = {Interactive visualization of elasto-plastic behavior through stress paths and yield surfaces in finite element analysis},
+	Volume = {47},
+	Year = {2011}}
+
+@book{Lemaitre2005,
+	Author = {J. Lema\^{i}tre and R. Desmorat},
+	Date-Modified = {2013-07-10 18:20:41 +0000},
+	Publisher = {Springer - Verlag, Berlin Heidelberg},
+	Title = {Engineering Damage Mechanics. Ductile, creep, fatigue and brittle failure.},
+	Year = {2005}}
+
+@article{Liu1984,
+	Author = {H. W. Liu},
+	Date-Modified = {2013-07-10 18:21:03 +0000},
+	Journal = {Engineering Fracture Mechancis},
+	Number = {5},
+	Pages = {425-438},
+	Title = {On the fundamental basis of fracture mechanics},
+	Volume = {17},
+	Year = {1984}}
+
+@inproceedings{Lu2012,
+	Address = {Chicago, IL},
+	Author = {Lu, Y.L. and Elsworth, D.},
+	Booktitle = {46th Rock Mechanics Geomechanics Symposium},
+	Pages = {ARMA 12--250},
+	Title = {{Combined Microscopic-Macroscopic Modeling of Rock Damage and Failure}},
+	Year = {2012}}
+
+@article{Lubarda1993,
+	Author = {Lubarda, V.A. and Krajcinovic, D.},
+	Journal = {International Journal of Solids and Structures},
+	Number = {20},
+	Pages = {2659--2677},
+	Title = {{Damage tensors and the crack density distribution}},
+	Volume = {30},
+	Year = {1993}}
+
+@article{Lubliner1989,
+	Author = {J. Lubliner and J. Oliver, and S. Oller, and E. Onate},
+	Date-Modified = {2013-12-03 15:11:32 +0000},
+	Journal = {International Journal of Solids and Structures},
+	Number = {3},
+	Pages = {299-326},
+	Title = {A Platic-Damage model for Concrete},
+	Volume = {23},
+	Year = {1989}}
+
+@article{Lund2007,
+	Author = {Lund, L.W.},
+	Date-Added = {2013-07-10 18:08:55 +0000},
+	Date-Modified = {2013-07-10 18:20:01 +0000},
+	Journal = {GHC Bulletin},
+	Month = {June},
+	Pages = {1--9},
+	Title = {Characteristics, development and utilization of geothermal resources},
+	Year = {2007}}
+
+@conference{Lux07,
+	Author = {Lux, K.-H. and Eberth, S.},
+	Booktitle = {Proceedings and Monographs in Engineering, Water and Earth Sciences.},
+	Pages = {129-138},
+	Title = {Fundamentals and first application of a new healing model for rock salt.},
+	Year = {2007}}
+
+@article{Lydzba2000,
+	Author = {Lydzba, D and Shao, J.F.},
+	Journal = {Mechanics of Cohesive-Frictional Materials},
+	Pages = {149--171},
+	Title = {{Study of poroelasticity material coefficients as response of microstructure}},
+	Volume = {5},
+	Year = {2000}}
+
+@book{Mack00,
+	Author = {Mack, M.G. and Warpinski, N.R.},
+	Publisher = {Chichester; Wiley},
+	Title = {Mechanics of hydraulic fracturing. In: Economides, Nolte, editors. Reservoir stimulation},
+	Year = {2000}}
+
+@article{Maleki2010,
+	Author = {Maleki, Keyvan and Pouya, Ahmad},
+	Issn = {0266352X},
+	Journal = {Computers and Geotechnics},
+	Month = jul,
+	Number = {5},
+	Pages = {619--628},
+	Publisher = {Elsevier Ltd},
+	Title = {{Numerical simulation of damage--Permeability relationship in brittle geomaterials}},
+	Volume = {37},
+	Year = {2010},
+	Bdsk-Url-1 = {http://linkinghub.elsevier.com/retrieve/pii/S0266352X10000443},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1016/j.compgeo.2010.03.009}}
+
+@article{Miao95,
+	Author = {Shuke Miao and Ming L. Wang and Howard L. Schreyer},
+	Journal = {Journal of Engineering Mechanics.},
+	Month = {Oct.},
+	Number = {10},
+	Pages = {1122-1129},
+	Title = {Constitutive models for healing of materials with application of compaction of crushed rock salt.},
+	Volume = {121},
+	Year = {1995}}
+
+@book{Mohammadi2007,
+	Author = {S. Mohammadi},
+	Publisher = {Blackwell},
+	Title = {Extended Finite Element Method for Fracture Analysis of Structures},
+	Year = {2007}}
+
+@article{Murakami1997,
+	Author = {Murakami, S. and Kamiya, K.},
+	Issn = {00207403},
+	Journal = {International Journal of Mechanical Sciences},
+	Keywords = {combined loading,constitutive equation,damage,dissipation potential,dynamics,elastic-brittle material,evolution equation,helmholtz free energy,irreversible thermo-,unilateral damage},
+	Month = apr,
+	Number = {4},
+	Pages = {473--486},
+	Title = {{Constitutive and damage evolution equations of elastic-brittle materials based on irreversible thermodynamics}},
+	Volume = {39},
+	Year = {1997},
+	Bdsk-Url-1 = {http://linkinghub.elsevier.com/retrieve/pii/S0020740397876278},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1016/S0020-7403(97)87627-8}}
+
+@article{Murakami1996,
+	Author = {Murakami, S. and Kamiya, K.},
+	Date-Added = {2013-07-09 17:58:12 +0000},
+	Date-Modified = {2013-07-09 18:02:25 +0000},
+	Journal = {Int. J. Mech. Sci.},
+	Pages = {473--486},
+	Title = {Constitutive and damage evolution equations of elastic-brittle materials based on irreversible thermodynamics},
+	Volume = {39},
+	Year = {1996}}
+
+@article{Nayak72,
+	Author = {G. C. Nayak and O. C. Zienkiewicz},
+	Journal = {International Journal for Numerical Methods in Engineering},
+	Pages = {113-135},
+	Title = {Elasto-plastic Stress Analysis. A Generalization for Various Constitutive Relations including Strain Softening},
+	Volume = {5},
+	Year = {1972}}
+
+@book{Nemat,
+	Author = {Nemat-Nasser, S. and Hori, M.},
+	Publisher = {North-Holland},
+	Title = {Micromechanics: Overall Properties of Heterogeneous Materials},
+	Year = {1993}}
+
+@proceedings{Nematnasser1983,
+	Address = {Stanford University, Stanford, California},
+	Author = {S. Nemat-Nasser and H. Horii},
+	Date-Added = {2013-10-03 23:22:29 +0000},
+	Date-Modified = {2013-10-03 23:24:40 +0000},
+	Month = {December},
+	Organization = {Ninth Workshop Geothermal Reservoir Engineering},
+	Title = {Rock failure in compression},
+	Year = {1983}}
+
+@article{Nematnasser1982,
+	Author = {S. Nemat-Nasser and H. Horii},
+	Date-Added = {2013-10-03 23:20:12 +0000},
+	Date-Modified = {2013-10-03 23:21:59 +0000},
+	Journal = {Journal of Geophysical Research},
+	Number = {B8},
+	Pages = {6805--6821},
+	Title = {Compression-induced noplanar crack extension with application to splitting, exfoliation, and rockburst},
+	Volume = {87},
+	Year = {1982}}
+
+@article{Ng2004,
+	Author = {Tang-Tat Ng},
+	Journal = {International Journal of Solids and Structures},
+	Owner = {pavling},
+	Pages = {5871--5884},
+	Timestamp = {2013.10.21},
+	Title = {Macro- and micro-behaviors of granular materials under different sample preparation methods and stress paths},
+	Volume = {41},
+	Year = {2004}}
+
+@article{Nordren72,
+	Author = {Nordren, R.P.},
+	Journal = {SPE. J.},
+	Number = {8},
+	Pages = {306-14},
+	Title = {Propagation of a vertical hydraulic fracture},
+	Volume = {12},
+	Year = {1972}}
+
+@article{Oda1984,
+	Author = {Oda, M.},
+	Date-Modified = {2013-07-10 18:26:51 +0000},
+	Journal = {Mechanics of Materials},
+	Pages = {119--129},
+	Title = {Similarity Rules of Crack Geometry in Statistically Homogeneous Rock Masses},
+	Volume = {3},
+	Year = {1984}}
+
+@article{Ortiz,
+	Author = {M. Ortiz},
+	Journal = {Mech. Mater.},
+	Pages = {67-93},
+	Title = {A constitutive theory for the inelastic behaviour of concrete},
+	Volume = {4},
+	Year = {1985}}
+
+@article{Paterson1961,
+	Author = {Paterson, M.S. and Weiss, L.E.},
+	Journal = {Geological Society of America Bulletin},
+	Number = {6},
+	Pages = {841--882},
+	Title = {{Deformed Rocks Symmetry Concepts in the Structural Analysis of Deformed Rocks}},
+	Volume = {72},
+	Year = {1961},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1130/0016-7606(1961)72}}
+
+@article{Pellet2005,
+	Author = {Pellet, F. and Hajdu, A. and Deleruyelle, F. and Besnus, F.},
+	Date-Added = {2013-07-09 18:03:12 +0000},
+	Date-Modified = {2013-07-09 18:04:09 +0000},
+	Journal = {Int. J. Numer. Anal. Meth. Geomech.},
+	Pages = {941--970},
+	Title = {A viscoplastic model including anisotropic damage for the time dependent behaviour of rock},
+	Volume = {29},
+	Year = {2005}}
+
+@inproceedings{Pellet2010,
+	Address = {Lausanne, Switzerland},
+	Author = {F.L. Pellet and M. Keshavarz},
+	Booktitle = {Rock Mechanics in Civil and Environmental Engineering},
+	Date-Modified = {2013-07-09 18:03:02 +0000},
+	Month = {Jun},
+	Pages = {135-138},
+	Title = {Mechanical Behavior of a Crystalline Hard Rock Subjected to Ultra High Temperature and Consequences for Underground Opending Stability},
+	Year = {2010}}
+
+@article{Pereira2012,
+	Author = {J.-M. Pereira and C. Arson},
+	Journal = {Computers \& Geotechnics (under review)},
+	Title = {Retention and Permeability Properties of Damaged Porous Rocks},
+	Year = {2012}}
+
+@article{Perkins62,
+	Author = {Perkins, T.K. and Kern, L.R.},
+	Journal = {J. Pet. Tech. 1961;13(9):937�49 [SPE 89].},
+	Number = {9},
+	Pages = {937-49},
+	Title = {Widths of hydraulic fractures},
+	Volume = {13},
+	Year = {1962}}
+
+@article{Pruess1990a,
+	Author = {Pruess, K and Wang, JSY and Tsang, YW},
+	Journal = {Water Resour. Res},
+	Number = {6},
+	Pages = {1235--1248},
+	Title = {{On thermohydrologic conditions near high-level nuclear wastes emplaced in partially saturated fractured tuff, 1, Simulation studies with explicit consideration of fracture effects}},
+	Volume = {26},
+	Year = {1990},
+	Bdsk-Url-1 = {http://www.agu.org/journals/wr/wr9006/89WR03753/89WR03753.pdf}}
+
+@article{Pruess1990b,
+	Author = {Pruess, K and Wang, J S Y and Tsang, Y W},
+	Journal = {Water Resources Research},
+	Number = {6},
+	Pages = {1249--1261},
+	Title = {{On Thermohydrologic Conditions Near High-Level Nuclear Wastes Emplaced in Partially Saturated Fractured Tuff 2 . Effective Continuum Approximation}},
+	Volume = {26},
+	Year = {1990}}
+
+@book{Reddy04,
+	Author = {J.N. Reddy},
+	Publisher = {Oxford University Press},
+	Title = {An Introduction to Nonlinear Finite Element Analysis},
+	Year = {2004}}
+
+@book{Reddy06,
+	Author = {J. N. Reddy},
+	Edition = {3rd},
+	Publisher = {McGrill Higher Education},
+	Title = {An Introduction to Finite Element Method},
+	Year = {2006}}
+
+@inbook{Rice1968,
+	Address = {New York},
+	Author = {J. R. Rice},
+	Chapter = {3 of Fracture: An Advanced Treatise},
+	Editor = {H. Liebowitz},
+	Pages = {191-311},
+	Publisher = {Academic Press},
+	Title = {Mathematical Analysis in the Mechanics of Fracture},
+	Volume = {2},
+	Year = {1968}}
+
+@inproceedings{Jurgen10,
+	Author = {J\"urgen Roudolph and kai Bauerbach and Michael Vormwald},
+	Booktitle = {Pressure Vessels and Piping Division of ASME},
+	Month = {Jul},
+	Pages = {693-700},
+	Title = {Numerical Investigations of Phenomena Caused by the Closure and Growth Behavior of Short Cracks under Thermal Cyclic Loading},
+	Volume = {3},
+	Year = {2010}}
+
+@inproceedings{Rummel82,
+	Address = {Sendai, Japan},
+	Author = {F. Rummel and R.B. Winter},
+	Booktitle = {Proc. 1st japan-USA Symp. on Fracture Mechanics Approach, Hydraulic fracture and Geothermal Energy},
+	Pages = {495-501},
+	Title = {Application of laboratory fracture mechanics data to hydraulic fracturing field tests},
+	Year = {1982}}
+
+@article{Savitski02,
+	Author = {Savitski, A. and Detournay, E.},
+	Journal = {International Journal of Solids and Structures},
+	Month = {August},
+	Pages = {6311-6337},
+	Title = {Propagation of a penny-shaped fluid-driven fracture in an impermeable rock: asymptotic solutions},
+	Volume = {39},
+	Year = {2002}}
+
+@conference{Schulze07,
+	Author = {O. Schulze},
+	Booktitle = {Proceedings and Monographs in Engineering, Water and Earth Sciences},
+	Pages = {33-43},
+	Title = {Investigations on damage and healing of rock salt.},
+	Year = {2007}}
+
+@article{Schulze84,
+	Author = {Otto Schulze},
+	Journal = {Nuclear Instruments \& Methods in Physics research Section B: Beam Interactions with Materials Atoms},
+	Month = {Feb.},
+	Number = {2-3},
+	Pages = {542-548},
+	Title = {Thermomechanical properties of irradiated rock salt},
+	Volume = {1},
+	Year = {1984}}
+
+@article{Senseny1992,
+	Author = {P.E. Senseny and F.D. Hansen and J.E. Russell and N.L. Carter and J.W. Handin},
+	Date-Added = {2012-11-07 08:07:26 +0000},
+	Date-Modified = {2012-11-07 08:11:27 +0000},
+	Journal = {International Journal of Rock Mechanics and Mining Sciences \& Geomechanics Abstracts},
+	Number = {4},
+	Pages = {363-378},
+	Title = {Mechanical behaviour of rock salt: Phenomenology and micromechanisms},
+	Volume = {29},
+	Year = {1992}}
+
+@article{Shao1998,
+	Author = {Shao, J.F.},
+	Issn = {01676636},
+	Journal = {Mechanics of Materials},
+	Month = sep,
+	Number = {1},
+	Pages = {41--53},
+	Title = {{Poroelastic behaviour of brittle rock materials with anisotropic damage}},
+	Volume = {30},
+	Year = {1998},
+	Bdsk-Url-1 = {http://linkinghub.elsevier.com/retrieve/pii/S0167663698000258},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1016/S0167-6636(98)00025-8}}
+
+@article{Shao2005,
+	Author = {Shao, JF and Zhou, H and Chau, KT},
+	Journal = {International Journal for Numerical and Analytical Methods i Geomechanics},
+	Keywords = {damage models, permeability change, microcracks, induced anisotropy, brittle rocks, granite, ENGINEERING, GEOLOGICAL, MATERIALS SCIENCE, MULTIDISCIPLINARY, MECHANICS},
+	Number = {12},
+	Pages = {1231 - 1247},
+	Title = {Coupling between anisotropic damage and permeability variation in brittle rocks.},
+	Volume = {29},
+	Year = {2005}}
+
+@article{Shao2006,
+	Author = {Shao, J. F. and Chau, K. T. and Feng, X. T.},
+	Date-Added = {2013-07-09 18:04:48 +0000},
+	Date-Modified = {2013-07-09 18:06:17 +0000},
+	Journal = {International Journal of Rock Mechanics \& Mining Sciences},
+	Pages = {582--592},
+	Title = {Modeling of anisotropic damage and creep deformation in brittle rocks},
+	Volume = {43},
+	Year = {2006}}
+
+@article{Shao1999,
+	Author = {Shao, Jian-Fu and Lydzba, Darius},
+	Journal = {C.R. Acad. Sci. Paris},
+	Pages = {1305--1310},
+	Title = {{Un mod\`{e}le d'endommagement poro\'{e}lastique pour milieux poreux satur\'{e}s}},
+	Volume = {327},
+	Year = {1999},
+	Bdsk-Url-1 = {http://www.sciencedirect.com/science/article/pii/S1287462099900066}}
+
+@inproceedings{Shen2012,
+	Address = {Chicago, IL},
+	Author = {Shen, X.},
+	Booktitle = {46th Rock Mechanics Geomechanics Symposium},
+	Pages = {ARMA 12--196},
+	Title = {{Modeling Fractures with Continuum Damage and Its Numerical Application to Stimulation Estimates}},
+	Year = {2012}}
+
+@article{Sih68,
+	Author = {Sih, G.C. and Liebowitz, H.},
+	Journal = {Fracture, An advanced Treatise},
+	Title = {Mathematical theories of brittle fracture},
+	Volume = {II},
+	Year = {1968}}
+
+@inproceedings{Smart2012,
+	Address = {Chicago, IL},
+	Author = {Smart, K.J. and Ofoegbu, G.I. and Das, K. and Basu, D.},
+	Booktitle = {46th Rock Mechanics Geomechanics Symposium},
+	Pages = {ARMA 12--275},
+	Title = {{Geomechanical Modeling of Hydraulic Fracture Initiation and Propagation in a Mechanically Stratified Geologic System}},
+	Year = {2012}}
+
+@inproceedings{Sneddon462,
+	Author = {Sneddon, I.N.},
+	Booktitle = {Proc. R. Soc. London A.},
+	Pages = {229-60},
+	Title = {The distribution of stress in the neighbourhood of a crack in an elastic solid},
+	Year = {1946}}
+
+@article{Sneddon46,
+	Author = {Sneddon, I.N. and Elliot, H.A.},
+	Journal = {Q. Appl. Math.},
+	Pages = {262-7},
+	Title = {The opening of a Griffith crack under internal pressure},
+	Volume = {4},
+	Year = {1946}}
+
+@conference{Sone10,
+	Address = {Salt Lake City},
+	Author = {H. Sone and M. D. Zoback},
+	Organization = {44th U.S. Rock Mechanics Symposium and 5th U.S.-Canada Rock Mechanics Symposium},
+	Title = {Strength, creep and frictional properties of gas shale reservoir rocks},
+	Year = {2010}}
+
+@article{Suvorov2011,
+	Author = {Suvorov, A. P. and Selvadurai, A. P. S.},
+	Journal = {{COMPUTERS AND GEOTECHNICS}},
+	Month = {{JUL}},
+	Number = {{5}},
+	Pages = {{721-730}},
+	Title = {{Effective medium methods and a computational approach for estimating geomaterial properties of porous materials with randomly oriented ellipsoidal pores}},
+	Volume = {{38}},
+	Year = {{2011}}}
+
+@article{Suzuki2012,
+	Author = {Suzuki, Takehito},
+	Date-Modified = {2013-12-03 15:12:16 +0000},
+	Issn = {0148-0227},
+	Journal = {Journal of Geophysical Research},
+	Month = may,
+	Number = {B5},
+	Pages = {1--20},
+	Title = {{Understanding of dynamic earthquake slip behavior using damage as a tensor variable: Microcrack distribution, orientation, and mode and secondary faulting}},
+	Volume = {117},
+	Year = {2012},
+	Bdsk-Url-1 = {http://www.agu.org/pubs/crossref/2012/2011JB008908.shtml},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1029/2011JB008908}}
+
+@article{Swoboda1999a,
+	Author = {Swoboda, G. and Yang, Q.},
+	Date-Modified = {2013-07-11 19:58:41 +0000},
+	Journal = {International Journal of Solids and Structures},
+	Month = apr,
+	Number = {12},
+	Pages = {1719--1734},
+	Title = {{An energy-based damage model of geomaterials. I. Formulation and numerical results}},
+	Volume = {36},
+	Year = {1999},
+	Bdsk-Url-1 = {http://linkinghub.elsevier.com/retrieve/pii/S0020768398000365},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1016/S0020-7683(98)00036-5}}
+
+@article{Swoboda1999b,
+	Author = {Swoboda, G and Yang, Q},
+	Date-Modified = {2013-07-11 19:58:57 +0000},
+	Journal = {International Journal of Solids and Structures},
+	Pages = {1735--1755},
+	Title = {{An energy-based damage model of geomaterials -II. Deduction of damage evolution laws}},
+	Volume = {36},
+	Year = {1999}}
+
+@article{Swoboda991,
+	Author = {G. Swoboda and Q. Yang},
+	Journal = {International Journal of Solids and Structures},
+	Pages = {1719-1734},
+	Title = {An energy-based damage model of geomaterials-I. Formulation and numerical results},
+	Volume = {36},
+	Year = {1999}}
+
+@inproceedings{Swoboda1995,
+	Author = {Swoboda, G. and Yang, Q. and Ito, F.},
+	Booktitle = {Proc. 8th Inernational Congress on Rock Mechanics},
+	Date-Modified = {2013-07-11 19:59:14 +0000},
+	Pages = {159--163},
+	Title = {{Damage Propagation Model and its Application to Rock Engineering Problems}},
+	Year = {1995}}
+
+@inproceedings{Swoboda1997,
+	Author = {Swoboda, G. and Yang, Q. and Zhou, W.},
+	Booktitle = {Computer Methods and Advances in Geomechanics},
+	Date-Modified = {2013-07-11 19:59:06 +0000},
+	Pages = {1821--1828},
+	Title = {{An energy-based damage model and its engineering application}},
+	Year = {1997}}
+
+@article{Takemura2004,
+	Author = {Takemura, T. and Oda, M.},
+	Issn = {00401951},
+	Journal = {Tectonophysics},
+	Keywords = {brittle failure,crack,damage growth,granite,stereology-based fabric},
+	Month = aug,
+	Number = {1-4},
+	Pages = {131--150},
+	Title = {{Stereology-based fabric analysis of microcracks in damaged granite}},
+	Volume = {387},
+	Year = {2004},
+	Bdsk-Url-1 = {http://linkinghub.elsevier.com/retrieve/pii/S004019510400191X},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1016/j.tecto.2004.06.004}}
+
+@proceedings{Tarokh2013,
+	Address = {San Francisco, California},
+	Author = {Tarokh, A. and Fakhimi, A.},
+	Date-Added = {2013-07-10 18:21:13 +0000},
+	Date-Modified = {2013-07-10 18:24:04 +0000},
+	Month = {23-26 June},
+	Organization = {the 47th US Rock Mechanics/Geomechancis Symposium},
+	Title = {Relationship between grain size and fracture properties of rock},
+	Year = {2013}}
+
+@article{Tsang2005,
+	Author = {Tsang, C-.F. and Bernier, F. and Davies, C.},
+	Date-Added = {2013-07-10 18:05:34 +0000},
+	Date-Modified = {2013-07-10 18:06:42 +0000},
+	Journal = {International Journal of Rock Mechanics \& Mining Sciences},
+	Pages = {109---125},
+	Title = {Geohydromechanical processes in the Excavation Damaged Zone in crystalline rock, rock salt, and indurated and plastic clays---in the context of radioactive waste disposal},
+	Volume = {42},
+	Year = {2005}}
+
+@article{Tsang09,
+	Author = {Y. W. Tsang and J. T. Birkholzer and S. Mukhopadhyay},
+	Journal = {Reviews of geophysics},
+	Pages = {1-30},
+	Title = {Modling of thermally driven hydrological processes in partially saturated fractured rock},
+	Volume = {47},
+	Year = {2009}}
+
+@article{Valko1994,
+	Author = {Valko, P and Economides, M.J.},
+	Journal = {International Journal of Rock Mechanics and Mining Sciences \& Geomechanics Abstracts},
+	Number = {3},
+	Pages = {221--229},
+	Title = {{Propagation of Hydraulically Induced Fractures a Continuum Damage Mechanics Approach}},
+	Volume = {31},
+	Year = {1994}}
+
+@article{Valko1993,
+	Author = {Valko, P. and Economides, M.J.},
+	Journal = {Journal of Petroleum Technology},
+	Number = {3},
+	Pages = {198--205},
+	Title = {{A Continuum-Damage-Mechanics Model of Hydraulic Fracturing}},
+	Volume = {45},
+	Year = {1993}}
+
+@conference{Vermylen11,
+	Address = {Woodlands},
+	Author = {John P. Vermylen and Mark D. Zoback},
+	Month = {January},
+	Organization = {the SPE Hydraulic Fracturing Technology Conference and Exhibition},
+	Title = {Hydraulic Fracturing, Microseimic Magnitudes, and Stress Evolution in the Barnett Shale, Texas, USA},
+	Year = {2011}}
+
+@article{Viatkina2009,
+	Author = {E.M. Viatkina and W.A.M. Brekelmans and M.G.D. Geers},
+	Journal = {Journal of materials Processing Technology},
+	Owner = {pavling},
+	Pages = {186--187},
+	Timestamp = {2013.10.21},
+	Title = {The role of plastic slip anisotropy in the modelling of strain path change effects},
+	Volume = {209},
+	Year = {2009}}
+
+@article{Wang1993,
+	Author = {Y. Wang and N. Kessler and F. J. Santarelli},
+	Journal = {Int. J, Rock Mech. Min. Sci. d: Geomech. Ab~tr.},
+	Owner = {pavling},
+	Pages = {1367--1370},
+	Timestamp = {2013.10.21},
+	Title = {Stress-Induced Anisotropy And Loading Path Effects On Borehole Responses},
+	Volume = {30},
+	Year = {1993}}
+
+@inproceedings{Westergaard1937,
+	Address = {New-York},
+	Author = {Westergaard, H.M.},
+	Booktitle = {Joint Meeting of the Applied Mechancis and Hydraulic Divisions of the American Society of Mechanical Engineers},
+	Pages = {A49--A53},
+	Title = {{Bearing Pressures and Cracks - Bearing Pressures Through a Slightly Waved Surface or Through a Nearly Flat Part of Cylinder, and Related Problems of Cracks}},
+	Year = {1937}}
+
+@book{Whittaker92,
+	Author = {Whittaker, B.N. and Singh, R.N. and Sun, G.},
+	Publisher = {Elsevier},
+	Title = {Rock fracture mehcanics: principles, design, and application},
+	Year = {1992}}
+
+@article{Wu07,
+	Author = {Ruiting Wu and Leonid N. Germanovich and Van Dyke, Peter E. and Robert P. Lowell},
+	Journal = {Journal of Geophysical Research},
+	Month = {May},
+	Number = {B5},
+	Title = {Thermal technique for controlling hydraulic fractures},
+	Volume = {112},
+	Year = {2007}}
+
+@article{Wu1993,
+	Author = {Wu, S and Chudnovsky, A.},
+	Journal = {International Journal of Fracture},
+	Pages = {41--52},
+	Title = {{Effect of microcrack array on stress intensity factor of main crack}},
+	Volume = {59},
+	Year = {1993}}
+
+@article{Xie2012,
+	Author = {Xie, Ni and Zhu, Qi-Zhi and Shao, Jian-Fu and Xu, Li-Hua},
+	Issn = {00207683},
+	Journal = {International Journal of Solids and Structures},
+	Month = mar,
+	Number = {6},
+	Pages = {919--928},
+	Publisher = {Elsevier Ltd},
+	Title = {{Micromechanical analysis of damage in saturated quasi brittle materials}},
+	Volume = {49},
+	Year = {2012},
+	Bdsk-Url-1 = {http://linkinghub.elsevier.com/retrieve/pii/S0020768311004148},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1016/j.ijsolstr.2011.12.006}}
+
+@article{Xu2014,
+	Author = {Xu, H. and Arson, C.},
+	Date-Added = {2013-07-10 18:29:47 +0000},
+	Date-Modified = {2013-07-10 18:30:55 +0000},
+	Journal = {International Journal of Computational Methods, Special Issue on Computational Geomechanics},
+	Number = {2},
+	Title = {Anisotropic Damage Models for Geomaterials: Theoretical and Numerical Challenges},
+	Volume = {11},
+	Year = {2014}}
+
+@conference{XuArsongeo2012,
+	Author = {Xu, H. and Arson, C.},
+	Booktitle = {GEOTECHNICAL SPECIAL PUBLICATION},
+	Edition = {4},
+	Number = {225},
+	Pages = {2332 - 2341},
+	Series = {GeoCongress; state of the art and practice in geotechnical engineering},
+	Title = {Thermo-Mechanical Damage in Porous Rocks: Theoretical Framework and Modeling Considerations.},
+	Volume = {4},
+	Year = {2012},
+	Bdsk-Url-1 = {http://prx.library.gatech.edu/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=edsbl&AN=CN082251181&site=eds-live&scope=site}}
+
+@article{Yamashita2000,
+	Author = {Yamashita, Teruo},
+	Date-Modified = {2013-12-03 15:12:05 +0000},
+	Issn = {0956-540X},
+	Journal = {Geophysical Journal International},
+	Month = nov,
+	Number = {2},
+	Pages = {395--406},
+	Title = {{Generation of microcracks by dynamic shear rupture and its effects on rupture growth and elastic wave radiation}},
+	Volume = {143},
+	Year = {2000},
+	Bdsk-Url-1 = {http://doi.wiley.com/10.1046/j.1365-246X.2000.01238.x},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1046/j.1365-246X.2000.01238.x}}
+
+@article{Yao2008,
+	Author = {Y.P. Yao and D.A. Sun and H. Matsuoka},
+	Journal = {Computers and Geotechnics},
+	Owner = {pavling},
+	Pages = {210--222},
+	Timestamp = {2013.10.21},
+	Title = {A unified constitutive model for both clay and sand with hardening parameter independent on stress path},
+	Volume = {35},
+	Year = {2008}}
+
+@book{Yu2006,
+	Author = {Yu, H.S.},
+	Date-Added = {2013-07-11 14:43:15 +0000},
+	Date-Modified = {2013-07-11 14:44:32 +0000},
+	Publisher = {Springer},
+	Title = {Plasticity and Geotechnics},
+	Year = {2006}}
+
+@article{Zhou11,
+	Author = {Hui Zhou and Dawei Hu and Fan Zhang and Jianfu Shao},
+	Journal = {Acta Mechanica Solida Sinica},
+	Number = {3},
+	Pages = {195-208},
+	Title = {A Thermo-plastic/Viscoplastic dmage Model for Geomaterials},
+	Volume = {24},
+	Year = {2011}}
+
+@article{Zhou2006,
+	Author = {Zhou, J and Shao, J and Xu, W},
+	Date-Modified = {2013-07-09 18:07:17 +0000},
+	Journal = {Mechanics Research Communications},
+	Month = jul,
+	Number = {4},
+	Pages = {450--459},
+	Title = {{Coupled modeling of damage growth and permeability variation in brittle rocks}},
+	Volume = {33},
+	Year = {2006},
+	Bdsk-Url-1 = {http://linkinghub.elsevier.com/retrieve/pii/S0093641305001503},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1016/j.mechrescom.2005.11.007}}
+
+@book{ZienkiewiczFEM2,
+	Author = {O.C. Zienkiewicz and R.L. Taylor},
+	Edition = {6th},
+	Publisher = {Elsevier},
+	Title = {The Finite Element Method for Solid and Structural Mechnics},
+	Year = {2005}}
+
+@book{ZienkiewiczFEM1,
+	Author = {O.C. Zienkiewicz and R.L. Taylor and J.Z. Zhu},
+	Edition = {6th},
+	Publisher = {Elsevier},
+	Title = {The Finite Element Method: Its Basis and Fundamentals},
+	Year = {2005}}
+
+@conference{Zobach12,
+	Address = {Pittsburgh},
+	Author = {Mark D. Zoback and Arjun Kohli and Indrajit Das and Mark McClure},
+	Month = {June},
+	Organization = {the SPE Hydraulic Fracturing Technology Conference and Exhibition},
+	Title = {The Importance of Slow Slip on Faults During Hydraulic Fracturing Stimulation of Shale Gas Reservoirs},
+	Year = {2012}}
+
+@inproceedings{Zoback78,
+	Author = {Zoback, M. D. and Pollard, D. D.},
+	Booktitle = {Proc. 19th U.S. Symp. on Rock Mech.},
+	Pages = {14-22},
+	Title = {Hydraulic fracture propagation and the invterpretation of pressure-time records for in site dterminations},
+	Year = {1978}}
+
+@manual{ABAQUS69,
+	Title = {Abaqus 6.9 Documentation}}

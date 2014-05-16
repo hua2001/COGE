@@ -178,7 +178,6 @@ The relationship between fracture mechanics and damage mechanics based on the th
  
 \subsection{presentation of extended CDM approach (put equations of the model in appendix)}
 
-\subsection{thermodynamic consistency} 
 
 %=====================================================================================
 \section{Outline of the DSID model}
@@ -190,7 +189,7 @@ The relationship between fracture mechanics and damage mechanics based on the th
 \label{fig:energy}
 \end{center}
 \end{figure}
-\subsection{Numerical implementation (MATLAB, ABAQUS, residual)}
+
 %=====================================================================================
 \section{Element Level: analysis of the forms of energy dissipation}
 \subsection{Micro-scopic effects -- Energy dissipation}
@@ -241,7 +240,7 @@ The work by the external force is $\bm\sigma:\dot{\bm\varepsilon}$ in each step,
 %
 \begin{figure}[htbp]
    \centering
-  \includegraphics[width=0.6\textwidth]{inkscape/energy_lost/energy_lost2.eps}
+  \includegraphics[width=0.8\textwidth]{inkscape/energy_lost/energy_lost2.eps}
    \caption{Energy spent in one loading process}
    \label{fig:energylost}
 \end{figure}
@@ -257,7 +256,7 @@ The energy dissipated by damage is concluded into two means, crack generating wi
 %
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=0.6\textwidth]{inkscape/energy_split/energy_split.eps}
+   \includegraphics[width=0.8\textwidth]{inkscape/energy_split/energy_split.eps}
    \caption{Energy splitting in one loading process}
    \label{fig:energysplit1}
 \end{figure}
@@ -274,7 +273,7 @@ The energy related to debonding of the crack surfaces will be dissipated ($\int 
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=0.6\textwidth]{inkscape/energy_split/energy_split2.eps}
+   \includegraphics[width=0.8\textwidth]{inkscape/energy_split/energy_split2.eps}
    \caption{Energy splitting in one loading process}
    \label{fig:energysplit2}
 \end{figure}
@@ -293,23 +292,23 @@ Therefore, the following equation is hold:
    \int \bm\sigma:\dot{\bm\varepsilon}\,\ud t -\frac{1}{2}\bm\sigma:\bm\varepsilon^E = \int \bm\sigma:\dot{\bm\varepsilon}^{id}\,\ud t+\int \bm{Y}:\dot{\bm\varOmega}\,\ud t
 \end{equation}
 %
-If in the FEM, it could be written in the summation of all increments.
+%If in the FEM, it could be written in the summation of all increments.
 %
-\begin{equation}
-   \label{eq:energyFEM1}
-   \sum \bm\sigma_{\theta n}:\dot{\bm\varepsilon}_n -\frac{1}{2}\bm\sigma_n:\bm\varepsilon^E_{n} = \sum \bm\sigma_{\theta n}:\dot{\bm\varepsilon}^{id}_n+\sum \bm{Y}_{\theta n}:\dot{\bm\varOmega}_{n}
-\end{equation}
-Where $\bm\sigma_{\theta n}$ and $\bm{Y}_{\theta n}$ are the resultant stress and damage force during each increment when calculating the energy change:
-\begin{align}
-    \bm\sigma_{\theta n} = & \ (1-\theta)\bm\sigma_{n-1} + \theta \, \bm\sigma_{n} \\
-    \bm{Y}_{\theta n} = & \ (1-\theta)\bm{Y}_{n-1} + \theta \, \bm{Y}_{n}
-\end{align}
-$\theta$ is the approximation factor.
-The total elastic strain can be decomposed into:
-\begin{equation}
-   \label{eq:energy}
-   \bm\varepsilon^E_{n} = \bm\varepsilon^E_{n-1} + \dot{\bm\varepsilon}^E_{n} = \bm\varepsilon^E_{n-1} + \dot{\bm\varepsilon}_{n} - \dot{\bm\varepsilon}^{id}_{n}
-\end{equation}
+%\begin{equation}
+%   \label{eq:energyFEM1}
+%   \sum \bm\sigma_{\theta n}:\dot{\bm\varepsilon}_n -\frac{1}{2}\bm%\sigma_n:\bm\varepsilon^E_{n} = \sum \bm\sigma_{\theta n}:\dot{\bm\varepsilon}^{id}_n+\sum \bm{Y}_{\theta n}:\dot{\bm\varOmega}_{n}
+%\end{equation}
+%Where $\bm\sigma_{\theta n}$ and $\bm{Y}_{\theta n}$ are the resultant stress and damage force during each increment when calculating the energy change:
+%\begin{align}
+%    \bm\sigma_{\theta n} = & \ (1-\theta)\bm\sigma_{n-1} + \theta \, \bm\sigma_{n} \\
+%    \bm{Y}_{\theta n} = & \ (1-\theta)\bm{Y}_{n-1} + \theta \, \bm{Y}_{n}
+%\end{align}
+%$\theta$ is the approximation factor.
+%The total elastic strain can be decomposed into:
+%\begin{equation}
+%   \label{eq:energy}
+%   \bm\varepsilon^E_{n} = \bm\varepsilon^E_{n-1} + \dot{\bm\varepsilon}^E_{n} = \bm\varepsilon^E_{n-1} + \dot{\bm\varepsilon}_{n} - \dot{\bm\varepsilon}^{id}_{n}
+%\end{equation}
 %The equation \ref{eq:energyFEM1} is reorganized as:
 %\begin{equation}
 %   \label{eq:energyFEM2}
@@ -335,13 +334,7 @@ Indeedly, the DSID model does not include the failure mechanisms in micro-scale,
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Numerical Simulations of energy dissipation at element level}
 
-a few cases for 1 2 3, maps showing $\Phi$ dissipated $W_e$ $W_{ed}$
-
-$E$, $\nu$ (granite, shale, salt rock and claystone)
-
-parametric study on the state of the rock (instead of stress)
 
 %--------------------------------------------------------------------------------------------
 \paragraph{Energy dissipation on different types of stress paths}
@@ -351,7 +344,7 @@ parametric study on the state of the rock (instead of stress)
 \item Uniaxial Tensile test
 \
 \\
-A uniaxial tensile test is computed with a 100 MPa pure shear stress in the REV.
+A uniaxial tensile test is computed with a 100 MPa at element level. After damage threshold, surfaces debonding and irreversible strain dissipate the energy which is input by the external work. In the uniaxial tensile test, the increase of the percentage of the dissipated energy is apparent. The percentage of the irreversible strain energy increases to 28$\%$ and crack debonding spends 12$\%$ of the total energy, while the stored elastic energy reduces to about 60$\%$. The energy release rate is high which can infer that the crack propagation in rock under uniaxial tensile is fast and unstable.
 \
 \\
 \begin{figure}[htbp]
@@ -372,10 +365,10 @@ A uniaxial tensile test is computed with a 100 MPa pure shear stress in the REV.
 \label{fig:TensileEnergy}
 \end{figure}
 
-\item Shear test
+\item Shear test \textcolor{red}{need re-calculation and replot}
 \
 \\
-A pure shear test is simulated with $\sigma_{12}=60$ MPa pure shear stress.
+A pure shear test is simulated with $\sigma_{12}=60$ MPa pure shear stress.  The energy dissipation process is slow (in figure \ref{fig:ShearEnergy}, the percentage of the dissipated energy increase insignificantly).
 \begin{figure}[htbp]
 \subfigure[Types of Energy]{
 \label{fig:TypesOfEnegyTen}
@@ -395,10 +388,10 @@ A pure shear test is simulated with $\sigma_{12}=60$ MPa pure shear stress.
 \end{figure}
 
 
-\item Triaxial Compresion test
+\item Triaxial Compresion test \textcolor{red}{need re-calculation and replot}
 \
 \\
-A triaxial compression test is computed with a 30 MPa confining stress and a vertical 130 MPa compressive stress. Each energy term in this simulation is summarized as follows.
+A triaxial compression test is computed with a 30 MPa confining stress and a vertical 130 MPa compressive stress. Each energy term in this simulation is summarized as follows. 
 \begin{figure}[htbp]
 \subfigure[Types of Energy]{
 \label{fig:TypesOfEnegyTen}
@@ -416,43 +409,238 @@ A triaxial compression test is computed with a 30 MPa confining stress and a ver
 \caption{Energy in a triaxial compression test}
 \label{fig:CompressionEnergy}
 \end{figure}
+\
+\\
+The energy dissipation process in triaxial test is similar as the previous pure shear test, which proofs the mechanism of crack propagation in these two cases are similar. The dissipation of energy is slower than the one in the uniaxial tensile test.
 \end{enumerate}
 
-
+%===================================================================================
 \section{FEM simulation of damage dissipation driving propagation}
-\subsection{Circular cavity}
-\begin{enumerate}
-\item intact rock mass
-\item with initial CDM damage
-\item with initial notch
-\end{enumerate}
-
+%----------------------------------------------------------------------------------
+\subsection{Energy dissipation during crack propagation}
+%
+The simulation is computed within a rectangle study domain. The horizontal directions of vertical boundaries are all fixed. The loading is imposed as displacements which are applied on the part of the top and bottom surface. A initial small crack is embedded closed to the left boundary surface. The displacement will induce the crack surface to open and cause the stress concentration around the crack tip, which drives the crack propagates (or damage zone extends) along the x-direction into the rock mass.
+\
+\\
 \begin{figure}[htbp]
    \centering
   \includegraphics[width=0.6\textwidth]{inkscape/sketch/sketch.eps}
-   \caption{Sketch of the simulation problem}
+   \caption{Sketch of the simulation problem.}
    \label{fig:sketch}
 \end{figure}
-
+\
+\\
 The dissipated energy in XFEM is:
 %
 \begin{equation}
 \label{eq:diss_XFEM}
     \int \dot\varPhi_{d} \, \ud t = \int G_c\dot{A} \,\ud{t}
 \end{equation}
-
-If the dissipated energy in different methods is equivalent, the relation between these methods can be obtained.
+%
+If the dissipated energy in different methods is equivalent \textcolor{red}{if input energy to system is equal ???}, the relation between these methods can be obtained.
 \begin{equation}
 \label{eq:diss_XFEM}
     \int \bm\sigma:\dot{\bm\varepsilon}^{id}\,\ud{t}+\int\bm{Y}:\dot{\bm\varOmega}\,\ud{t} =
     \int G_c\dot{A} \,\ud{t}
 \end{equation}
-\subsection{with complex crack patterns}
+%--------------------------------------------------------------------------------
+\subsection{XFEM}
+\noindent
+Extended Finite Element Method (XFEM) is a special case of local Partition of Unity Finite Element Method (PUFEM) with extrinsic enrichment. This method is originally developped by .... The idea sustaining XFEM is to add discontinuous enrichment functions to the Finite Element approximation to account for the presence of the crack. The geometry of the cracks is explicitly modeled and finner remeshing is not required. Level set and fast marching methods are used to track moving boundaries.
+%
+%-------------------------------------------------------------------------------------------
+\paragraph{Enrichment functions}
+\
+\\
+The enrichment functions typically consist of the near-tip asymptotic functions that capture the singularity around the crack tip and a discontinuous function that represents the jump in displacement across the crack surfaces:
+\begin{equation}\label{enrich}
+    \mathbf{u}=\sum_{i=1}^{n}N_i(x)[\mathbf{u}_i+H(x)\mathbf{a}_i+\sum_{\alpha=1}^{4}F_\alpha(x)\mathbf{b}_i^{\alpha}]
+\end{equation}
+where $N_i(x)$  are the usual nodal shape functions; $\mathbf{u}_i$ is the usual nodal displacement vector associated with the continuous part of the finite element solution; the second term is the product of the nodal enriched degree of freedom vector, $\mathbf{a}_i$, and the associated discontinuous jump function   $H(x)$ across the crack surfaces; and the third term is the product of the nodal enriched degree of freedom vector, $\mathbf{b}_i^{\alpha}$, and the associated elastic asymptotic crack-tip functions, $F_\alpha(x)$.
 
-% 
-\subsection{Fracture patterns around cavities}
+\paragraph{Cohesive segments method and phantom nodes}
+\
+\\
+Unlike Cohesive Zone methods, which require that the cohesive surfaces align with element boundaries and the cracks propagate along a set of predefined paths, the XFEM-based cohesive segments method can be used to simulate crack initiation and propagation along an arbitrary, solution-dependent path in the bulk materials. Phantom nodes, which are superposed on the original real nodes, are introduced to represent the discontinuity of the cracked elements. When the element is cut through by a crack, the cracked element splits into two parts. Each phantom node and its corresponding real node are no longer tied together and can move apart.
+The magnitude of the separation is governed by the cohesive law until the cohesive strength of the cracked element is zero, after which the phantom and the real nodes move independently.
 
-
+\paragraph{Level set method to describe discontinuous geometry}
+\
+\\
+A key development that facilitates treatment of cracks in an extended finite element analysis is the description of crack geometry, because the mesh is not required to conform to the crack geometry. The level set method, which is a powerful numerical technique for analyzing and computing interface motion, fits naturally with the extended finite element method and makes it possible to model arbitrary crack growth without remeshing.
+\
+\\
+The problem is solved by XFEM with fracture energy $G_{c}=120 \textrm{N/m}$. The crack is generated within the same plane as initial crack, and propagate along x-direction (figure \ref{fig:XFEMResults}). The maximum tensile stress occurs at the crack tip with high stress concentration.
+\
+\\
+\begin{figure}[htbp]
+\begin{minipage}[t]{0.28\textwidth}
+\centering
+\vspace{-2cm}
+\includegraphics[width=\textwidth]{Abaqus/XFEM/XFEM_scale.jpg}
+\end{minipage}
+\begin{minipage}[t]{0.65\textwidth}
+\centering
+\includegraphics[width=\textwidth]{Abaqus/XFEM/XFEM_1.jpg}
+\includegraphics[width=\textwidth]{Abaqus/XFEM/XFEM_2.jpg}
+\includegraphics[width=\textwidth]{Abaqus/XFEM/XFEM_3.jpg}
+\includegraphics[width=\textwidth]{Abaqus/XFEM/XFEM_4.jpg}
+\includegraphics[width=\textwidth]{Abaqus/XFEM/XFEM_5.jpg}
+\includegraphics[width=\textwidth]{Abaqus/XFEM/XFEM_6.jpg}
+\end{minipage}
+\caption{Absolute Maximum Principal Stress distribution during loading processes. The figures are corresponding to the total loading displacement, 0.16, 1.98, 5.98, 10.36, 13.98, and 20 mm. The figure is displayed with 50 amplification factor to show the crack opening.}
+\label{fig:XFEMResults}
+\end{figure}
+\
+\\
+The total energy is computed as the summation of the elastic energy and dissipated energy in entire domain. The elastic energy is the stress energy stored in the body of material, while the dissipated energy is the accumulation of the energy released by the crack surface generation. Displayed as the figure \ref{fig:XFEMEnergy}, when the crack propagates at the very early of the loading, the surface energy dissipate rapidly with the high amount of surface energy releases and the dissipated energy is more than the stored elastic energy. In the physical processes, this is the unstable crack when the initial crack is very small at the beginning, where the catastrophic failure occurs before the full development of a cohesive zone; then the crack propagation slows down, and most of the work is stored into the material as strain energy. Therefore, the elastic energy then increase significantly. The crack propagation is a stable process during the later loading steps with intermediate crack size. The percentage of the elastic energy to the total energy decreases at the occurrence of the crack propagation, then it increases with loading applied; while the dissipated energy is inverse.
+\
+\\
+\begin{figure}[htbp]
+   \centering
+  \includegraphics[width=0.6\textwidth]{Abaqus/Energy/plot_XFEM_Energy.pdf}
+   \caption{Percentage of the energy evolution during loading steps with XFEM. }
+   \label{fig:XFEMEnergy}
+\end{figure}
+\
+\\
+The final elastic energy density is illustrated by figure \ref{fig:XFEMESEDEN}. The plot is consistent with the maximum principal distribution in figure \ref{fig:XFEMResults}. The high elastic energy density occurs at the position (boundary edge or crack tip) with the higher tensile stress or compressive stress.
+\
+\\
+\begin{figure}[htbp]
+   \centering
+  \includegraphics[width=\textwidth]{Abaqus/XFEM/XFEM_ESEDEN.jpg}
+   \caption{Elastic energy density with XFEM. }
+   \label{fig:XFEMESEDEN}
+\end{figure}
+%------------------------------------------------------------------------------------
+\subsection{Cohesive Zone Model}
+\noindent
+The cohesive zone finite element method, which is originally proposed by Dugdale \cite{Dugdale1960}, has been extensively used to simulate fracture and fragmentation processes inconcrete, rock and metals. Similar as XFEM, in order to avoids the singularity in the crack tip stress field that is present in classic fracture mechanics, the cohesive zone model utilizes a simplified fracture process zone characterised by a traction-separation law instead. So the cohesive finite element method provides an alternate, effective approach for quantitative analysis of fracture behaviour through explicit simulation of the fracture processes.
+\
+\\
+In cohesive-zone models,  a stress–displacement relationship across the crack tip represents the degrading mechanisms in the fracture process zone (\textcolor{red}{add figure}). Figure shows the used decohesion relations for quasi-brittle fracture. The cohesive crack tip corresponds to the damage initiation point where the traction reaches the cohesive strength $\sigma_t$ and the separation reaches the critical value $\delta_0$; the material crack tip is the complete failure point where the separation reaches the critical value $\delta_f$ and the traction or cohesive strength acting across the surfaces are equal to zero. The work of separation or fracture energy $G_c$, which is the work needed to create a unit area of fully developed crack. It is formally defined as
+%
+\begin{equation}
+\label{eq:CZMGc}
+    G_c = \int \sigma \,\ud{\delta}
+\end{equation}
+%
+The same problem is simulated with the fracture energy $G_c=120$N/m. The obtained results are different from which are given by XFEM (figure \ref{fig:CZMResults}), but with similar distribution of maximum principal stress. 
+\
+\\
+\begin{figure}[htbp]
+\begin{minipage}[t]{0.28\textwidth}
+\centering
+\vspace{-2cm}
+\includegraphics[width=\textwidth]{Abaqus/CZM/CZM_scale.jpg}
+\end{minipage}
+\begin{minipage}[t]{0.65\textwidth}
+\centering
+\includegraphics[width=\textwidth]{Abaqus/CZM/CZM_1.jpg}
+\includegraphics[width=\textwidth]{Abaqus/CZM/CZM_2.jpg}
+\includegraphics[width=\textwidth]{Abaqus/CZM/CZM_3.jpg}
+\includegraphics[width=\textwidth]{Abaqus/CZM/CZM_4.jpg}
+\includegraphics[width=\textwidth]{Abaqus/CZM/CZM_5.jpg}
+\includegraphics[width=\textwidth]{Abaqus/CZM/CZM_6.jpg}
+\end{minipage}
+\caption{Absolute Maximum Principal Stress distribution during loading processes. The figures are corresponding to the total loading displacement, 0.06, 1.99, 6.00, 9.99, 13.91 and 20 mm. The figure is displayed with 50 amplification factor to show the crack opening.}
+\label{fig:CZMResults}
+\end{figure}
+\
+\\
+Because the dissipated way on energy is assumed by the traction-separation law, the energy dissipates is slower than the simulation by XFEM, and the dissipated energy at beginning is less than the elastic energy. But it still can be found the unstable crack propagation with the small crack size at the beginning. When crack size increase, the surface energy release rate decrease and most of the work by the external loading is stored as elastic energy. The displacement loading with CZM induces higher energy into the system compared with XFEM. The percentage of the elastic energy to the total energy decreases at the occurrence of the crack propagation, then it increases and almost keep constant with loading growth; while the dissipated energy is inverse.
+\
+\\
+\begin{figure}[htbp]
+   \centering
+  \includegraphics[width=0.6\textwidth]{Abaqus/Energy/plot_CZM_Energy.pdf}
+   \caption{Percentage of the energy evolution during loading steps with CZM. }
+   \label{fig:CZMEnergy}
+\end{figure}
+\
+\\
+The final elastic energy density obtained with CZM is displayed in figure \ref{fig:CZMESEDEN},  in which the energy density distribution consistent with the maximum principal distribution in figure \ref{fig:CZMResults}. The high elastic energy density occurs at the position (boundary edge or crack tip) with the higher tensile stress or compressive stress, which is the same as the results obtained by XFEM.
+\
+\\
+\begin{figure}[htbp]
+   \centering
+  \includegraphics[width=\textwidth]{Abaqus/CZM/CZM_ESEDEN.jpg}
+   \caption{Elastic energy density with CZM. }
+   \label{fig:CZMESEDEN}
+\end{figure}
+%-----------------
+%------------------------------------------------------------------------------------
+\subsection{Continuum Damage Model}
+\noindent
+The problem is computed with DSID model, but the damageable elements are only restricted in two layers around in the middle of the entire domain. In this way, the energy can only dissipate along the horizontal layers, so the damage model for crack propagation can be compared with the XFEM and CZM simulations in which the crack plane is restricted horizontally. The other domain is still utilized with elastic material. The results display the tensile zone ahead of the crack tip since the crack tip cannot move. The obtained stress is one order magnitude larger than the previous examples due to the no discontinuity generates and not enough energy releases in this simulation.
+\
+\\
+\begin{figure}[htbp]
+\begin{minipage}[t]{0.28\textwidth}
+\centering
+\vspace{-2cm}
+\includegraphics[width=\textwidth]{Abaqus/DSID/DSID_scale.jpg}
+\end{minipage}
+\begin{minipage}[t]{0.65\textwidth}
+\centering
+\includegraphics[width=\textwidth]{Abaqus/DSID/DSID_1.jpg}
+\includegraphics[width=\textwidth]{Abaqus/DSID/DSID_2.jpg}
+\includegraphics[width=\textwidth]{Abaqus/DSID/DSID_3.jpg}
+\includegraphics[width=\textwidth]{Abaqus/DSID/DSID_4.jpg}
+\includegraphics[width=\textwidth]{Abaqus/DSID/DSID_5.jpg}
+\includegraphics[width=\textwidth]{Abaqus/DSID/DSID_6.jpg}
+\end{minipage}
+\caption{Absolute Maximum Principal Stress distribution during loading processes. The figures are corresponding to the total loading displacement, 3.4, 6.4, 9.8, 14.2, 17, and 20 mm. The figure is displayed with 50 amplification factor to show the crack opening.}
+\label{fig:DSIDResults}
+\end{figure}
+\
+\\
+The obtained energy in the system is much larger than the previous two examples, in which the energy is 3 order of magnitude less than the DSID model. The energy evolution is more stable than the previous cases. After damage induced, the percentage of the elastic energy decreases with the percentage of the irreversible strain energy and crack debonding energy increase. These three energy terms evolves smoothly in this case, which means that microcrack propagation before discontinuity occurs is stable and affects the macroscopic properties smoothly.
+\
+\\
+\begin{figure}[htbp]
+\subfigure[Energy Evolution]{
+\label{fig:DSIDEnergy}
+\begin{minipage}[b]{0.48\textwidth}
+\centering
+\vspace{-3cm}
+\includegraphics[width=\textwidth]{Abaqus/Energy/plot_DSID_Energy.pdf}
+\end{minipage}}
+\subfigure[Percentages of Each Energy]{
+\label{fig:DSIDEP}
+\begin{minipage}[b]{0.48\textwidth}
+\centering
+\includegraphics[width=\textwidth]{Abaqus/Energy/plot_DSID_EP.pdf}
+\end{minipage}}
+\caption{Energy in simulation with DSID Model}
+\label{fig:DSIDEnergy}
+\end{figure}
+\
+\\
+The elastic energy density is computed and shows as figure \ref{fig:DSIDESEDEN}. The above figure displays the energy density in elastic domain while the below figure illustrates the ones in damageable domain.
+\
+\\
+\begin{figure}[htbp]
+   \centering
+  \includegraphics[width=\textwidth]{Abaqus/DSID/DSID_ESEDEN_elas.jpg}
+  \includegraphics[width=\textwidth]{Abaqus/DSID/DSID_SDV37_damage.jpg}
+   \caption{Elastic energy density with DSID. }
+   \label{fig:DSIDESEDEN}
+\end{figure}
+%------------------------------------------------------------------------------------
+\subsection{Comparison between models}
+\noindent
+To compare the energy consume in DSID model and XFEM, the evolution of the percentage of the elastic energy within the entire study domain is plotted in figure \ref{fig:Comparison}. Although the magnitude of the energy are not the same order, but the percentage of the elastic energy illustrates the way how energy evolve during loading growth. Both XFEM and CZM include the discontinuity generation, so the results by XFEM shows the percentage of the elastic energy reduces rapidly when crack starts to propagate which means macro-scopic discontinuity grows unstably. Till the energy percentage reaches a turning point, the crack extension slows down and opening of crack is dominant. Most of the external work is stored by the material after this turning point, so the percentage of the elastic energy increases. However, this phenomenon cannot be captured by continuum model. DSID considers damage as the micro-crack growth, so it still use continuum method to account for the crack evolution without embedding the real discontinuity. This way triggers the crack propagate gently so that the material properties decreases smoothly.
+\
+\\
+\begin{figure}[htbp]
+   \centering
+  \includegraphics[width=0.6\textwidth]{Abaqus/Energy/plot_EP.pdf}
+   \caption{Percentage of the elastic energy during loading steps. }
+   \label{fig:Comparison}
+\end{figure}
+%==================================================================================================
 \section{Conclusion}
 
 

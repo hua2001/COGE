@@ -1,0 +1,49 @@
+reset
+
+# wxt
+# set terminal wxt size 640,400 enhanced font 'Helvetica,12' persist
+# eps
+set terminal epslatex size 12cm,11cm color colortext standalone header \
+"\\newcommand{\\ft}[0]{\\large}"
+set output 'plot_DSID_EP.tex'
+
+# define axis
+# remove border on top and right and set color to gray
+# set style line 11 lc rgb '#808080' lt 1
+# set border 3 back ls 11
+set tics nomirror
+# define grid
+# set style line 12 lc rgb '#808080' lt 0 lw 1
+# set grid back ls 12
+set grid
+
+# color definitions
+set style line 1 lc rgb '#ff0000' pt 4 ps 1.8 lt 1 lw 4 # --- red
+set style line 2 lc rgb '#5e9c36' pt 6 ps 2 lt 2 lw 4 # --- green
+set style line 3 lc rgb '#0000ff' pt 12 ps 2.2 lt 3 lw 4 # --- blue
+set style line 4 lc rgb '#20B2AA' pt 8 ps 2 lt 4 lw 4 # --- dark cyan
+set style line 5 lc rgb '#ff8c00'  pt 8 ps 1 lt 5 lw 2 # --- dark orange
+set style line 6 lc rgb '#8a2be2'  pt 8 ps 2.2 lt 6 lw 4 # --- dark blue violet
+# set linetype 5 lw 2 lc rgb "red" lt 2
+
+set key at 0.0145,70 reverse Left
+set key height 0.5
+set key width -5
+set key box
+
+set xlabel '\ft Displacement, (m)' # offset 0,0.5
+set ylabel '\ft Percentage of Energy, $\%$'  offset 2, 0
+set format x '\ft %g'
+set format y '\ft %g'
+set xtics 0.004
+set ytics 20
+set xrange [0:0.02]
+# set yrange [0:6]
+# set label '\ft Axial strain $\epsilon_1\%$\%' at 0.008,-20
+# set label '\ft Lateral strain $\epsilon_3$' at -0.01,-20
+
+
+plot 'DSID' u ($2):(100*$3/($3+$4+$5)) every ::1 title 'Elastic Energy' w lp ls 1, \
+'DSID' u ($2):(100*$4/($3+$4+$5)) every ::1 title 'Irreversible Strain Energy' w lp ls 2,\
+'DSID' u ($2):(100*$5/($3+$4+$5)) every ::1 title 'Crack Debonding Energy' w lp ls 3
+

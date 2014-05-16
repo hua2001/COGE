@@ -1,0 +1,486 @@
+This is XeTeX, Version 3.1415926-2.2-0.9995.2 (TeX Live 2009/Debian) (format=xelatex 2012.7.6)  15 MAY 2014 23:51
+entering extended mode
+ %&-line parsing enabled.
+**COGE.tex
+(./COGE.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf-texlive/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
+\@bls=\dimen102
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texmf-texlive/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@tnote=\count88
+\c@fnote=\count89
+\c@cnote=\count90
+\c@ead=\count91
+\c@author=\count92
+\@eadauthor=\toks15
+\c@affn=\count93
+\absbox=\box26
+\keybox=\box27
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box28
+\els@boxb=\box29
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+ (./COGE.spl)
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+\splwrite=\write3
+\openout3 = `COGE.spl'.
+
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen109
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen110
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks19
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks20
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks21
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 93.
+
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)))
+(/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count107
+\rotFPtop=\skip50
+\rotFPbot=\skip51
+\rot@float@box=\box32
+\rot@mess@toks=\toks23
+)
+(/usr/share/texmf-texlive/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(/usr/share/texmf-texlive/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip52
+\subfigcapskip=\skip53
+\subfigcaptopadj=\dimen118
+\subfigbottomskip=\skip54
+\subfigcapmargin=\dimen119
+\subfiglabelskip=\skip55
+\c@subfigure=\count108
+\c@lofdepth=\count109
+\c@subtable=\count110
+\c@lotdepth=\count111
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip56
+\subfig@bottom=\skip57
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: xetex.def on input line 130.
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/topcapt.sty
+Package: topcapt 2004/12/11 v1.2 Caption at top of float
+)
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen120
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/ulem.sty
+\UL@box=\box33
+\UL@hyphenbox=\box34
+\UL@skip=\skip58
+\UL@hook=\toks24
+\UL@pe=\count112
+\UL@pixel=\dimen121
+\ULC@box=\box35
+Package: ulem 2000/05/26
+\ULdepth=\dimen122
+) (./COGE.aux
+
+LaTeX Warning: Label `fig:TypesOfEnegyTen' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:TypesOfEnegyTen' multiply defined.
+
+
+LaTeX Warning: Label `fig:PercentagesOfEachEnergy' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:PercentagesOfEachEnergy' multiply defined.
+
+
+LaTeX Warning: Label `fig:TypesOfEnegyTen' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:TypesOfEnegyTen' multiply defined.
+
+
+LaTeX Warning: Label `fig:PercentagesOfEachEnergy' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:PercentagesOfEachEnergy' multiply defined.
+
+
+LaTeX Warning: Label `eq:diss_XFEM' multiply defined.
+
+
+LaTeX Warning: Label `fig:DSIDEnergy' multiply defined.
+
+)
+\openout1 = `COGE.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+\AtBeginShipoutBox=\box36
+LaTeX Font Info:    Try loading font information for U+msa on input line 145.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 145.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1
+
+
+]
+Overfull \hbox (1.27094pt too wide) in paragraph at lines 177--178
+[]\OT1/cmr/m/n/12 The re-la-tion-ship be-tween frac-ture me-chan-ics and dam-ag
+e me-chan-ics based
+ []
+
+File: figures/flowchart2.pdf Graphic file (type QTm)
+<use  "figures/flowchart2.pdf" >
+
+LaTeX Warning: Float too large for page by 93.37157pt on input line 191.
+
+[2] [3] [4]
+File: figures/inkscape/energy_lost/energy_lost2.eps Graphic file (type eps)
+ <figures/inkscape/energy_lost/energy_lost2.eps> [5]
+File: figures/inkscape/energy_split/energy_split.eps Graphic file (type eps)
+
+<figures/inkscape/energy_split/energy_split.eps>
+File: figures/inkscape/energy_split/energy_split2.eps Graphic file (type eps)
+
+<figures/inkscape/energy_split/energy_split2.eps> [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 341--344
+
+ []
+
+File: figures/MRC/simple/tensile/energy1.eps Graphic file (type eps)
+<figures/MRC/simple/tensile/energy1.eps>
+File: figures/MRC/simple/tensile/energypercentage.eps Graphic file (type eps)
+
+<figures/MRC/simple/tensile/energypercentage.eps> [8]
+File: figures/MRC/simple/shear/energy1.eps Graphic file (type eps)
+
+<figures/MRC/simple/shear/energy1.eps>
+File: figures/MRC/simple/shear/energypercentage.eps Graphic file (type eps)
+
+<figures/MRC/simple/shear/energypercentage.eps>
+File: figures/MRC/simple/compression/energy1.eps Graphic file (type eps)
+
+<figures/MRC/simple/compression/energy1.eps>
+File: figures/MRC/simple/compression/energypercentage.eps Graphic file (type ep
+s)
+
+<figures/MRC/simple/compression/energypercentage.eps> [9] [10]
+File: figures/inkscape/sketch/sketch.eps Graphic file (type eps)
+
+<figures/inkscape/sketch/sketch.eps> [11] [12]
+File: figures/Abaqus/XFEM/XFEM_scale.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/XFEM/XFEM_scale.jpg" >
+File: figures/Abaqus/XFEM/XFEM_1.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/XFEM/XFEM_1.jpg" >
+File: figures/Abaqus/XFEM/XFEM_2.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/XFEM/XFEM_2.jpg" >
+File: figures/Abaqus/XFEM/XFEM_3.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/XFEM/XFEM_3.jpg" >
+File: figures/Abaqus/XFEM/XFEM_4.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/XFEM/XFEM_4.jpg" >
+File: figures/Abaqus/XFEM/XFEM_5.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/XFEM/XFEM_5.jpg" >
+File: figures/Abaqus/XFEM/XFEM_6.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/XFEM/XFEM_6.jpg" >
+File: figures/Abaqus/Energy/plot_XFEM_Energy.pdf Graphic file (type QTm)
+
+<use  "figures/Abaqus/Energy/plot_XFEM_Energy.pdf" >
+File: figures/Abaqus/XFEM/XFEM_ESEDEN.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/XFEM/XFEM_ESEDEN.jpg" > [13] [14]
+Missing character: There is no – in font cmr12!
+ [15] [16]
+File: figures/Abaqus/CZM/CZM_scale.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/CZM/CZM_scale.jpg" >
+File: figures/Abaqus/CZM/CZM_1.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/CZM/CZM_1.jpg" >
+File: figures/Abaqus/CZM/CZM_2.jpg Graphic file (type QTm)
+ <use  "figures/Abaqus/CZM/CZM_2.jpg" >
+File: figures/Abaqus/CZM/CZM_3.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/CZM/CZM_3.jpg" >
+File: figures/Abaqus/CZM/CZM_4.jpg Graphic file (type QTm)
+ <use  "figures/Abaqus/CZM/CZM_4.jpg" >
+File: figures/Abaqus/CZM/CZM_5.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/CZM/CZM_5.jpg" >
+File: figures/Abaqus/CZM/CZM_6.jpg Graphic file (type QTm)
+ <use  "figures/Abaqus/CZM/CZM_6.jpg" >
+File: figures/Abaqus/Energy/plot_CZM_Energy.pdf Graphic file (type QTm)
+
+<use  "figures/Abaqus/Energy/plot_CZM_Energy.pdf" >
+File: figures/Abaqus/CZM/CZM_ESEDEN.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/CZM/CZM_ESEDEN.jpg" > [17] [18]
+File: figures/Abaqus/DSID/DSID_scale.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/DSID/DSID_scale.jpg" >
+File: figures/Abaqus/DSID/DSID_1.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/DSID/DSID_1.jpg" >
+File: figures/Abaqus/DSID/DSID_2.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/DSID/DSID_2.jpg" >
+File: figures/Abaqus/DSID/DSID_3.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/DSID/DSID_3.jpg" >
+File: figures/Abaqus/DSID/DSID_4.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/DSID/DSID_4.jpg" >
+File: figures/Abaqus/DSID/DSID_5.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/DSID/DSID_5.jpg" >
+File: figures/Abaqus/DSID/DSID_6.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/DSID/DSID_6.jpg" >
+File: figures/Abaqus/Energy/plot_DSID_Energy.pdf Graphic file (type QTm)
+
+<use  "figures/Abaqus/Energy/plot_DSID_Energy.pdf" >
+File: figures/Abaqus/Energy/plot_DSID_EP.pdf Graphic file (type QTm)
+
+<use  "figures/Abaqus/Energy/plot_DSID_EP.pdf" >
+File: figures/Abaqus/DSID/DSID_ESEDEN_elas.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/DSID/DSID_ESEDEN_elas.jpg" >
+File: figures/Abaqus/DSID/DSID_SDV37_damage.jpg Graphic file (type QTm)
+
+<use  "figures/Abaqus/DSID/DSID_SDV37_damage.jpg" > [19] [20] [21]
+File: figures/Abaqus/Energy/plot_EP.pdf Graphic file (type QTm)
+
+<use  "figures/Abaqus/Energy/plot_EP.pdf" > [22] [23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 742--742
+[]\OT1/cmr/m/n/10 Stress Vari-
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 742--742
+[]\OT1/cmr/m/n/10 Strain Vari-
+ []
+
+
+Overfull \hbox (100.98985pt too wide) in paragraph at lines 756--841
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 9.30556pt on input line 843.
+
+[25] [26] (./COGE.bbl [27] [28]) [29] (./COGE.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2924 strings out of 494665
+ 36597 string characters out of 1166478
+ 106235 words of memory out of 3000000
+ 6005 multiletter control sequences out of 15000+50000
+ 19767 words of font info for 73 fonts, out of 3000000 for 9000
+ 669 hyphenation exceptions out of 8191
+ 32i,16n,30p,1776b,450s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on COGE.pdf (29 pages).

@@ -1,0 +1,89 @@
+\begin{thebibliography}{15}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Lubliner et~al.(1989)Lubliner, Oliver, Oller, and
+  Onate}]{Lubliner1989}
+\bibinfo{author}{J.~Lubliner}, \bibinfo{author}{J.~Oliver},
+  \bibinfo{author}{S.~Oller}, \bibinfo{author}{E.~Onate},
+  \bibinfo{journal}{International Journal of Solids and Structures}
+  \bibinfo{volume}{23} (\bibinfo{year}{1989}) \bibinfo{pages}{299--326}.
+%Type = Article
+\bibitem[{Abu Al-Rub and Kim(2010)}]{Abualrub2010}
+\bibinfo{author}{R.~K. Abu Al-Rub}, \bibinfo{author}{S.-M. Kim},
+  \bibinfo{journal}{Engineering Fracture Mechanics} \bibinfo{volume}{77}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{1577--1603}.
+%Type = Article
+\bibitem[{Cicekli et~al.(2007)Cicekli, Voyiadjis, and Abu Al-Rub}]{Cicekli2007}
+\bibinfo{author}{U.~Cicekli}, \bibinfo{author}{G.~Z. Voyiadjis},
+  \bibinfo{author}{R.~K. Abu Al-Rub}, \bibinfo{journal}{International Journal
+  of Plasticity} \bibinfo{volume}{23} (\bibinfo{year}{2007})
+  \bibinfo{pages}{1874--1900}.
+%Type = Article
+\bibitem[{Murakami and Kamiya(1996)}]{Murakami1996}
+\bibinfo{author}{S.~Murakami}, \bibinfo{author}{K.~Kamiya},
+  \bibinfo{journal}{Int. J. Mech. Sci.} \bibinfo{volume}{39}
+  (\bibinfo{year}{1996}) \bibinfo{pages}{473--486}.
+%Type = Article
+\bibitem[{Halm and Dragon(1998)}]{Halm1998}
+\bibinfo{author}{D.~Halm}, \bibinfo{author}{A.~Dragon}, \bibinfo{journal}{Eur.
+  J. Mech. A/ Solids} \bibinfo{volume}{17} (\bibinfo{year}{1998})
+  \bibinfo{pages}{439--460}.
+%Type = Article
+\bibitem[{Homand-Etienne et~al.(1998)Homand-Etienne, Hoxha, and
+  Shao}]{Homand-Etienne1998}
+\bibinfo{author}{F.~Homand-Etienne}, \bibinfo{author}{D.~Hoxha},
+  \bibinfo{author}{J.~F. Shao}, \bibinfo{journal}{Computers and Geotechnics}
+  \bibinfo{volume}{22} (\bibinfo{year}{1998}) \bibinfo{pages}{135--151}.
+%Type = Article
+\bibitem[{Mazars and Pijaudier-Cabot(1996)}]{Mazars1996}
+\bibinfo{author}{J.~Mazars}, \bibinfo{author}{G.~Pijaudier-Cabot},
+  \bibinfo{journal}{International Journal of Solids and Structures}
+  \bibinfo{volume}{33} (\bibinfo{year}{1996}) \bibinfo{pages}{3327--3342}.
+%Type = Article
+\bibitem[{Dugdale(1960)}]{Dugdale1960}
+\bibinfo{author}{D.~S. Dugdale}, \bibinfo{journal}{J. Mech. phys. Solids}
+  \bibinfo{volume}{8} (\bibinfo{year}{1960}) \bibinfo{pages}{100--104}.
+%Type = Article
+\bibitem[{Chaboche(1993)}]{Chaboche1993}
+\bibinfo{author}{J.-L. Chaboche}, \bibinfo{journal}{International Journal of
+  Damage Mechanics} \bibinfo{volume}{2} (\bibinfo{year}{1993})
+  \bibinfo{pages}{311--329}.
+%Type = Article
+\bibitem[{Pellet et~al.(2005)Pellet, Hajdu, Deleruyelle, and
+  Besnus}]{Pellet2005}
+\bibinfo{author}{F.~Pellet}, \bibinfo{author}{A.~Hajdu},
+  \bibinfo{author}{F.~Deleruyelle}, \bibinfo{author}{F.~Besnus},
+  \bibinfo{journal}{Int. J. Numer. Anal. Meth. Geomech.} \bibinfo{volume}{29}
+  (\bibinfo{year}{2005}) \bibinfo{pages}{941--970}.
+%Type = Article
+\bibitem[{Shao et~al.(2005)Shao, Zhou, and Chau}]{Shao2005}
+\bibinfo{author}{J.~Shao}, \bibinfo{author}{H.~Zhou},
+  \bibinfo{author}{K.~Chau}, \bibinfo{journal}{International Journal for
+  Numerical and Analytical Methods i Geomechanics} \bibinfo{volume}{29}
+  (\bibinfo{year}{2005}) \bibinfo{pages}{1231 -- 1247}.
+%Type = Article
+\bibitem[{Shao et~al.(2006)Shao, Chau, and Feng}]{Shao2006}
+\bibinfo{author}{J.~F. Shao}, \bibinfo{author}{K.~T. Chau},
+  \bibinfo{author}{X.~T. Feng}, \bibinfo{journal}{International Journal of Rock
+  Mechanics \& Mining Sciences} \bibinfo{volume}{43} (\bibinfo{year}{2006})
+  \bibinfo{pages}{582--592}.
+%Type = Article
+\bibitem[{Zhou et~al.(2006)Zhou, Shao, and Xu}]{Zhou2006}
+\bibinfo{author}{J.~Zhou}, \bibinfo{author}{J.~Shao}, \bibinfo{author}{W.~Xu},
+  \bibinfo{journal}{Mechanics Research Communications} \bibinfo{volume}{33}
+  (\bibinfo{year}{2006}) \bibinfo{pages}{450--459}.
+%Type = Article
+\bibitem[{Hayakawa and Murakami(1997)}]{Hayakawa1997}
+\bibinfo{author}{K.~Hayakawa}, \bibinfo{author}{S.~Murakami},
+  \bibinfo{journal}{International Journal of Damage Mechanics}
+  \bibinfo{volume}{6} (\bibinfo{year}{1997}) \bibinfo{pages}{333--363}.
+%Type = Article
+\bibitem[{Xu and Arson(2014)}]{Xu2014}
+\bibinfo{author}{H.~Xu}, \bibinfo{author}{C.~Arson},
+  \bibinfo{journal}{International Journal of Computational Methods, Special
+  Issue on Computational Geomechanics} \bibinfo{volume}{11}
+  (\bibinfo{year}{2014}).
+
+\end{thebibliography}
